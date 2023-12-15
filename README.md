@@ -10,7 +10,7 @@ Kmt is the [ancient name of Egypt](https://en.wikipedia.org/wiki/Egypt#Names) (m
 
 ## Tasks
 
-- [ ] inspiration from [Ananke](https://github.com/theNewDynamic/gohugo-theme-ananke)
+- [x] inspiration from [Ananke](https://github.com/theNewDynamic/gohugo-theme-ananke) (_was_ almost a fork; _was_ kinda a starting stable point)
 - [ ] [submit the theme](https://gohugo.io/contribute/themes/)
 - [ ] breadcrumb & easy navigation
 - [ ] mobile-first, responsive layout
