@@ -8,6 +8,22 @@ Kmt is the [ancient name of Egypt](https://en.wikipedia.org/wiki/Egypt#Names) (m
 
 ## Configuration
 
+## for development
+
+run this command to compile a CSS style file for development (dev env).
+
+```sh
+npx tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --watch
+```
+
+## for production
+
+run this command to compile a CSS style file for production.
+
+```sh
+npx tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --minify
+```
+
 ## Tasks
 
 - [x] inspiration from [Ananke](https://github.com/theNewDynamic/gohugo-theme-ananke) (_was_ almost a fork; _was_ kinda a starting stable point)
