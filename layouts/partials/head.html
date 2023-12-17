@@ -7,6 +7,8 @@
 <meta name="description"
     content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 
+<meta name="robots" content="index, follow">
+
 {{ hugo.Generator }}
 
 {{ partialCached "head/css.html" . }}
