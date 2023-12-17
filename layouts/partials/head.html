@@ -7,5 +7,7 @@
 <meta name="description"
     content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 
+{{ hugo.Generator }}
+
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
