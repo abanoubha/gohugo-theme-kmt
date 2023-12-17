@@ -5,11 +5,11 @@
       {{ .Title }}
     </h1>
 
-    <div class="opacity-60">
+    <div class="flex gap-3 opacity-60">
       {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
       {{ $dateHuman := .Date | time.Format ":date_long" }}
       <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-      |
+
       {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
     </div>
   </header>
