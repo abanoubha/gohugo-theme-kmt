@@ -14,12 +14,14 @@
     </div>
   </header>
 
-  <div>
-    {{ .Content }}
-  </div>
+  <div class="grid grid-cols-4">
+    <div class="col-span-3">
+      {{ .Content }}
+    </div>
 
-  <aside>
-    //
-  </aside>
+    <aside class="col-span-1">
+      //
+    </aside>
+  </div>
 </article>
 {{ end }}
