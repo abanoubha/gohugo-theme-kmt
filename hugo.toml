@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://gohugo-theme-kmt.netlify.app/'
 
 languageCode = 'en-us'
 defaultContentLanguage = 'en'
