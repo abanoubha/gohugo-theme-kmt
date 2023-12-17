@@ -4,6 +4,8 @@ Kmt is the [ancient name of Egypt](https://en.wikipedia.org/wiki/Egypt#Names) (m
 
 ## Features
 
+- speed page loading (surf the web at the speed of thought)
+
 ## Installation
 
 ## Configuration
