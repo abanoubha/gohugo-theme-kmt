@@ -33,10 +33,10 @@ npx tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --minify
 
 - [x] inspiration from [Ananke](https://github.com/theNewDynamic/gohugo-theme-ananke) (_was_ almost a fork; _was_ kinda a starting stable point)
 - [x] use [tailwind css](https://tailwindcss.com/docs/installation)
+- [x] setup a [demo](https://gohugo-theme-kmt.netlify.app/) on [netlify](https://netlify.com)
 - [ ] [submit the theme](https://gohugo.io/contribute/themes/)
 - [ ] breadcrumb & easy navigation
 - [ ] mobile-first, responsive layout
-- [ ] setup a demo on [netlify](https://netlify.com)
 - [ ] generate sitemap(s)
 - [ ] SEO meta tags
 - [ ] RSS
