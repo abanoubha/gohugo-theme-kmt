@@ -30,3 +30,6 @@
 {{ else }}
 <link rel="canonical" href="{{ .Permalink }}">
 {{ end }}
+
+{{/* ref: https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
+{{- template "_internal/opengraph.html" . -}}
