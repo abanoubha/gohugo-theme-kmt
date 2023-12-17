@@ -38,7 +38,7 @@ npx tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --minify
 - [ ] breadcrumb & easy navigation
 - [ ] mobile-first, responsive layout
 - [ ] generate sitemap(s)
-- [ ] SEO meta tags
+- [x] SEO meta tags
 - [ ] RSS
 - [ ] web native __lazy loading__ for images & iframes ([can i use](https://caniuse.com/#feat=loading-lazy-attr))
 - [ ] use WebP image to speed up the page load time ([can i use](https://caniuse.com/#feat=webp))
