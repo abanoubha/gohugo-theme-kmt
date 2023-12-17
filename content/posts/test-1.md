@@ -14,6 +14,14 @@ lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ip
 
 Good enough.
 
+```go
+package main
+
+func main(){
+    return 0
+}
+```
+
 ### test h3
 
 maybe.
