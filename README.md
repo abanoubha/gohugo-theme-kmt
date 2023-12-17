@@ -24,6 +24,11 @@ run this command to compile a CSS style file for production.
 npx tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --minify
 ```
 
+## Resources & Referrals
+
+- <https://gohugo.io/content-management/multilingual/>
+- <https://www.freepik.com/icon/investment_3358944>
+
 ## Tasks
 
 - [x] inspiration from [Ananke](https://github.com/theNewDynamic/gohugo-theme-ananke) (_was_ almost a fork; _was_ kinda a starting stable point)
