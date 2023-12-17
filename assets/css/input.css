@@ -7,4 +7,7 @@
         @apply antialiased scroll-smooth max-w-7xl mx-auto p-4 text-slate-900 bg-neutral-100;
     }
     article h2, article h3, article h4, article h5, article h6 {@apply font-bold;}
+    article h2 {@apply text-2xl;}
+    article h3 {@apply text-xl;}
+    article h4 {@apply text-lg;}
 }
