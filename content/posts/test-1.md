@@ -18,6 +18,10 @@ Good enough.
 
 maybe.
 
+```sh
+sudo apt install nvim
+```
+
 ### test another h3
 
 maybe not.
