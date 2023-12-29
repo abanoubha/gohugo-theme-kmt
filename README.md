@@ -34,7 +34,7 @@ npx tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --minify
 ## Tasks
 
 - [x] use [tailwind css](https://tailwindcss.com/docs/installation)
-- [x] setup a [demo](https://gohugo-theme-kmt.netlify.app/) on [netlify](https://netlify.com)
+- [x] setup a [demo](https://gohugo-theme-kmt.netlify.app/) on netlify
 - [x] SEO meta tags
 - [x] generate sitemap(s)
 - [ ] [submit the theme](https://gohugo.io/contribute/themes/)
