@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-        @apply antialiased scroll-smooth max-w-7xl mx-auto p-4 text-slate-900 bg-neutral-100;
+        @apply antialiased scroll-smooth max-w-7xl mx-auto p-4 text-slate-900 bg-neutral-100 dark:text-slate-100 dark:bg-neutral-950;
     }
     article h2, article h3, article h4, article h5, article h6 {@apply font-bold;}
     article h2 {@apply text-2xl;}
