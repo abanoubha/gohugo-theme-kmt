@@ -1,6 +1,9 @@
 baseURL = 'https://gohugo-theme-kmt.netlify.app/'
 title = 'Kmt Hugo Theme'
 
+[params]
+  founded = 2023
+
 languageCode = 'en-us'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
