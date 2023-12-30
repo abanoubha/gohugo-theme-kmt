@@ -33,7 +33,7 @@ Renders a menu for the given menu ID.
 {{- $name = . }}
 {{- end }}
 {{- end }}
-<li>
+<li class="menuItem">
   <a {{- range $k, $v :=$attrs }} {{- with $v }} {{- printf " %s=%q" $k $v | safeHTMLAttr }} {{- end }} {{- end -}}>{{
     $name }}</a>
   {{- with .Children }}
