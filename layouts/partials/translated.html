@@ -1,0 +1,14 @@
+{{ if .IsTranslated }}
+<div class="dark:text-white text-center">
+    <h4 class="inline-block">{{ T "translations" }}</h4>
+    <ul class="inline-block">
+        {{ range .Translations }}
+        <li>
+            <a href="{{ .RelPermalink }}" class="menuItem">
+                {{ .Language.LanguageName }} ({{ .LinkTitle }})
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}
