@@ -10,6 +10,6 @@
     article h2 {@apply text-2xl;}
     article h3 {@apply text-xl;}
     article h4 {@apply text-lg;}
-    pre {@apply px-2 py-1 rounded;}
+    pre {@apply px-2 py-1 rounded;direction: ltr;}
     .menuItem {@apply mx-1 hover:underline text-blue-700 hover:text-blue-800 dark:text-blue-300 dark:hover:text-blue-200;}
 }
