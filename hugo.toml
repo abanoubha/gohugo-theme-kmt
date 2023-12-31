@@ -3,6 +3,7 @@ title = 'Kmt Hugo Theme'
 
 [params]
   founded = 2023
+  adsense = 'ca-pub-4971969455307153'
 
 languageCode = 'en-us'
 defaultContentLanguage = 'en'

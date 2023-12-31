@@ -36,3 +36,8 @@
 {{- template "_internal/schema.html" . -}}
 {{- template "_internal/twitter_cards.html" . -}}
 {{ template "_internal/google_analytics.html" . }}
+
+{{ if isset .Site.Language.Params "adsense" }}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ .Site.Params.adsense }}"
+    crossorigin="anonymous"></script>
+{{ end }}
