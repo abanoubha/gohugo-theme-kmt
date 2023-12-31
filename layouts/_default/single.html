@@ -1,5 +1,6 @@
 {{ define "main" }}
 <article class="my-4">
+  {{ partialCached "share.html" . }}
   <header>
     <h1 class="text-4xl font-bold">
       {{ .Title }}
