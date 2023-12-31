@@ -1,10 +1,10 @@
-<div class="socialLink">
+<div class="shareLink">
 
     {{$svgHeight := "30px"}}
 
     <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ absURL .Permalink }}&title={{ .Title | urlquery}}"
         target="_blank" rel="noopener" title="LinkedIn link" aria-label="follow on LinkedIn —— Opens in a new window"
-        class="socialLink">
+        class="shareLink">
         <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}" version="1.1"
             viewBox="0 0 65 65" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -20,7 +20,7 @@
     </a>
 
     <a href="https://www.facebook.com/sharer.php?u={{ absURL .Permalink }}" target="_blank" rel="noopener"
-        title="Facebook link" aria-label="follow on Facebook —— Opens in a new window" class="socialLink">
+        title="Facebook link" aria-label="follow on Facebook —— Opens in a new window" class="shareLink">
         <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}" version="1.1"
             viewBox="0 0 67 67" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -36,7 +36,7 @@
     </a>
 
     <a href="https://twitter.com/intent/tweet?url={{ absURL .Permalink }}&text={{ .Title | urlquery}}" target="_blank"
-        rel="noopener" title="twitter link" aria-label="follow on twitter —— Opens in a new window" class="socialLink">
+        rel="noopener" title="twitter link" aria-label="follow on twitter —— Opens in a new window" class="shareLink">
         <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}" version="1.1"
             viewBox="0 0 67 67" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -52,8 +52,7 @@
     </a>
 
     <a href="https://telegram.me/share/url?url={{ absURL .Permalink }}&text={{ .Title | urlquery }}" target="_blank"
-        rel="noopener" title="telegram link" aria-label="follow on telegram —— Opens in a new window"
-        class="socialLink">
+        rel="noopener" title="telegram link" aria-label="follow on telegram —— Opens in a new window" class="shareLink">
         <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
             <path
@@ -68,7 +67,7 @@
     </a>
 
     <a href="https://wa.me/?text={{ .Title | urlquery }} {{ absURL .Permalink }}" target="_blank" rel="noopener"
-        title="whatsapp link" aria-label="follow on whatsapp —— Opens in a new window" class="socialLink">
+        title="whatsapp link" aria-label="follow on whatsapp —— Opens in a new window" class="shareLink">
         <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}" aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <path
