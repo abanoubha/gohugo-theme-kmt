@@ -1,9 +1,9 @@
-<nav role="navigation" class="flex gap-1">
-    <h1 class="font-bold">
-        <a href="/">
-            {{ site.Title }}
-        </a>
-    </h1>
+<h1 class="block font-bold text-center">
+    <a href="/">
+        {{ site.Title }}
+    </a>
+</h1>
+<nav role="navigation" class="flex gap-1 justify-center">
     {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
     {{ partial "translated.html" .}}
 </nav>
