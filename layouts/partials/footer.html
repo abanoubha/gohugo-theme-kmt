@@ -1,9 +1,11 @@
 <div class="inline-block">
 
+    {{$svgHeight := "28px"}}
+
     {{ if isset .Site.Language.Params "linkedin" }}
     <a href="{{ .Site.Language.Params.linkedin }}" target="_blank" rel="noopener" title="LinkedIn link"
         aria-label="follow on LinkedIn —— Opens in a new window" class="inline-block">
-        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="18px" version="1.1"
+        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}" version="1.1"
             viewBox="0 0 65 65" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
             <path
@@ -21,7 +23,7 @@
     {{ if isset .Site.Language.Params "facebook" }}
     <a href="{{ .Site.Language.Params.facebook }}" target="_blank" rel="noopener" title="Facebook link"
         aria-label="follow on Facebook —— Opens in a new window" class="inline-block">
-        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="18px" version="1.1"
+        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}" version="1.1"
             viewBox="0 0 67 67" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
             <path
@@ -39,7 +41,7 @@
     {{ if isset .Site.Language.Params "twitter" }}
     <a href="{{ .Site.Language.Params.twitter }}" target="_blank" rel="noopener" title="twitter link"
         aria-label="follow on twitter —— Opens in a new window" class="inline-block">
-        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="18px" version="1.1"
+        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}" version="1.1"
             viewBox="0 0 67 67" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
             <path
@@ -57,7 +59,7 @@
     {{ if isset .Site.Language.Params "youtube" }}
     <a href="{{ .Site.Language.Params.youtube }}" target="_blank" rel="noopener" title="youtube link"
         aria-label="follow on youtube —— Opens in a new window" class="inline-block">
-        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="18px" version="1.1"
+        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}" version="1.1"
             viewBox="0 0 67 67" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
             <path
@@ -76,7 +78,7 @@
     {{ if isset .Site.Language.Params "github" }}
     <a href="{{ .Site.Language.Params.github }}" target="_blank" rel="noopener" title="github link"
         aria-label="follow on github —— Opens in a new window" class="inline-block">
-        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="18px" version="1.1"
+        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}" version="1.1"
             viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
             <path
@@ -94,7 +96,7 @@
     {{ if isset .Site.Language.Params "gitlab" }}
     <a href="{{ .Site.Language.Params.gitlab }}" target="_blank" rel="noopener" title="gitlab link"
         aria-label="follow on gitlab —— Opens in a new window" class="inline-block">
-        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="18px" version="1.1"
+        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}" version="1.1"
             viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
             <path
                 d="M29.782 199.732L256 493.714 8.074 309.699c-6.856-5.142-9.712-13.996-7.141-21.993l28.849-87.974zm75.405-174.806c-3.142-8.854-15.709-8.854-18.851 0L29.782 199.732h131.961L105.187 24.926zm56.556 174.806L256 493.714l94.257-293.982H161.743zm349.324 87.974l-28.849-87.974L256 493.714l247.926-184.015c6.855-5.142 9.711-13.996 7.141-21.993zm-85.404-262.78c-3.142-8.854-15.709-8.854-18.851 0l-56.555 174.806h131.961L425.663 24.926z">
@@ -112,7 +114,7 @@
     {{ if isset .Site.Language.Params "codeberg" }}
     <a href="{{ .Site.Language.Params.codeberg }}" target="_blank" rel="noopener" title="codeberg link"
         aria-label="follow on codeberg —— Opens in a new window" class="inline-block">
-        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="18px"
+        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}"
             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16"
             viewBox="0 0 4.233 4.233">
             <defs>
@@ -150,7 +152,7 @@
     {{ if isset .Site.Language.Params "instagram" }}
     <a href="{{ .Site.Language.Params.instagram }}" target="_blank" rel="noopener" title="instagram link"
         aria-label="follow on instagram —— Opens in a new window" class="inline-block">
-        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="18px" version="1.1"
+        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}" version="1.1"
             viewBox="0 0 67 67" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
             <path
@@ -168,7 +170,7 @@
     {{ if isset .Site.Language.Params "medium" }}
     <a href="{{ .Site.Language.Params.medium }}" target="_blank" rel="noopener" title="medium link"
         aria-label="follow on medium —— Opens in a new window" class="inline-block">
-        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="18px" version="1.1"
+        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}" version="1.1"
             viewBox="0 0 170 170" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
             <path
@@ -186,7 +188,7 @@
     {{ if isset .Site.Language.Params "mastodon" }}
     <a href="{{ .Site.Language.Params.mastodon }}" target="_blank" rel="noopener" title="mastodon link"
         aria-label="follow on mastodon —— Opens in a new window" class="inline-block">
-        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="18px" version="1.1"
+        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}" version="1.1"
             viewBox="0 0 67 67" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
             <path
                 d="M 61.731833,16.783448 C 60.855064,10.336694 55.17491,5.2562169 48.441526,4.2717554 47.305526,4.1054038 43.001372,3.5 33.030833,3.5 h -0.07446 C 22.983141,3.5 20.843449,4.1054038 19.707449,4.2717554 13.161526,5.2289477 7.1836569,9.7940169 5.7332999,16.317063 c -0.6976035,3.212462 -0.7720515,6.774 -0.6424569,10.041 0.1847407,4.685077 0.2205861,9.361923 0.6507292,14.027923 0.2973693,3.099385 0.8161231,6.174077 1.552377,9.201 1.3786615,5.590462 6.9594998,10.242769 12.4272688,12.140846 5.854077,1.979385 12.149615,2.307923 18.181846,0.949 0.663539,-0.152692 1.319846,-0.33 1.968693,-0.531769 1.464153,-0.460846 3.182,-0.976308 4.444846,-1.881692 0.01731,-0.01269 0.03154,-0.02908 0.04154,-0.048 0.01,-0.01885 0.01562,-0.03977 0.01631,-0.06108 v -4.521385 c -3.08e-4,-0.01992 -0.0051,-0.03954 -0.014,-0.05738 -0.009,-0.01785 -0.02185,-0.03354 -0.03777,-0.04577 -0.01585,-0.01231 -0.03431,-0.02092 -0.05392,-0.02531 -0.01969,-0.0043 -0.04008,-0.0042 -0.05969,2.3e-4 -3.864769,0.913077 -7.825154,1.370769 -11.798615,1.363539 -6.838154,0 -8.677308,-3.209693 -9.204,-4.546 -0.423308,-1.154846 -0.692154,-2.359462 -0.799615,-3.583308 -0.0011,-0.02054 0.0028,-0.04108 0.01115,-0.05992 0.0084,-0.01877 0.02123,-0.03538 0.03731,-0.04839 0.01615,-0.013 0.03515,-0.02208 0.05546,-0.02646 0.02031,-0.0045 0.04138,-0.004 0.06154,0.0012 3.800385,0.906846 7.696154,1.364538 11.605615,1.363538 0.940231,0 1.877693,0 2.818,-0.02454 3.931923,-0.109077 8.076154,-0.308154 11.944693,-1.055385 0.09654,-0.01908 0.193,-0.03546 0.275769,-0.06 6.101923,-1.159 11.908846,-4.796846 12.498923,-14.008846 0.02208,-0.362692 0.07723,-3.798769 0.07723,-4.175077 0.0028,-1.279 0.416384,-9.072846 -0.06069,-13.861538 z m -9.391461,22.98623 H 45.924141 V 24.225525 c 0,-3.272462 -1.378692,-4.941385 -4.182923,-4.941385 -3.082692,0 -4.626769,1.974385 -4.626769,5.874 v 8.508385 H 30.736757 V 25.15814 c 0,-3.899615 -1.546847,-5.874 -4.629539,-5.874 -2.787692,0 -4.180154,1.668923 -4.182923,4.941385 V 39.769678 H 15.513526 V 23.753755 c 0,-3.272461 0.844692,-5.87223 2.534,-7.799384 1.742615,-1.922539 4.028461,-2.909693 6.865769,-2.909693 3.283923,0 5.765538,1.248923 7.419923,3.744231 l 1.596539,2.650692 1.59923,-2.650692 c 1.654385,-2.495308 4.136,-3.744231 7.414462,-3.744231 2.834538,0 5.120308,0.987154 6.868461,2.909693 1.689385,1.925307 2.534,4.525077 2.534,7.799384 z" />
@@ -203,7 +205,7 @@
     {{ if isset .Site.Language.Params "tiktok" }}
     <a href="{{ .Site.Language.Params.tiktok }}" target="_blank" rel="noopener" title="tiktok link"
         aria-label="follow on tiktok —— Opens in a new window" class="inline-block">
-        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="18px"
+        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <path
                 d="M448 209.91a210.06 210.06 0 0 1-122.77-39.25v178.72A162.55 162.55 0 1 1 185 188.31v89.89a74.62 74.62 0 1 0 52.23 71.18V0h88a121.18 121.18 0 0 0 1.86 22.17A122.18 122.18 0 0 0 381 102.39a121.43 121.43 0 0 0 67 20.14Z" />
@@ -220,7 +222,7 @@
     {{ if isset .Site.Language.Params "stackoverflow" }}
     <a href="{{ .Site.Language.Params.stackoverflow }}" target="_blank" rel="noopener" title="stackoverflow link"
         aria-label="follow on stackoverflow —— Opens in a new window" class="inline-block">
-        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="18px"
+        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path
                 d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.869 5.903l3.114 4.567-.975.665-3.115-4.567.976-.665zm-2.812 2.585l4.84 2.838-.6 1.017-4.842-2.838.602-1.017zm-1.276 2.724l5.413 1.521-.291 1.077-5.428-1.458.306-1.14zm-.588 2.461l5.687.569-.103 1.12-5.691-.513.107-1.176zm-.169 2.16h5.835v1.167h-5.835v-1.167zm7.976 3.167h-10v-6h1v5h8v-5h1v6zm.195-8.602l-.945-5.446 1.162-.202.947 5.446-1.164.202z" />
@@ -237,7 +239,7 @@
     {{ if isset .Site.Language.Params "telegram" }}
     <a href="{{ .Site.Language.Params.telegram }}" target="_blank" rel="noopener" title="telegram link"
         aria-label="follow on telegram —— Opens in a new window" class="inline-block">
-        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="18px"
+        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
             <path
                 d="M248 8C111.033 8 0 119.033 0 256s111.033 248 248 248 248-111.033 248-248S384.967 8 248 8Zm114.952 168.66c-3.732 39.215-19.881 134.378-28.1 178.3-3.476 18.584-10.322 24.816-16.948 25.425-14.4 1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25 5.342-39.5 3.652-3.793 67.107-61.51 68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608 69.142-14.845 10.194-26.894 9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7 18.45-13.7 108.446-47.248 144.628-62.3c68.872-28.647 83.183-33.623 92.511-33.789 2.052-.034 6.639.474 9.61 2.885a10.452 10.452 0 0 1 3.53 6.716 43.765 43.765 0 0 1 .417 9.769Z" />
@@ -254,7 +256,7 @@
     {{ if isset .Site.Language.Params "whatsapp" }}
     <a href="{{ .Site.Language.Params.whatsapp }}" target="_blank" rel="noopener" title="whatsapp link"
         aria-label="follow on whatsapp —— Opens in a new window" class="inline-block">
-        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="18px" aria-hidden="true"
+        <svg class="fill-blue-800 dark:fill-blue-300" fill="currentColor" height="{{ $svgHeight }}" aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <path
                 d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
