@@ -37,6 +37,7 @@ npx tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --minify
 - [x] setup a [demo](https://gohugo-theme-kmt.netlify.app/) on netlify
 - [x] SEO meta tags
 - [x] generate sitemap(s)
+- [x] link to translation of current page
 - [ ] [submit the theme](https://gohugo.io/contribute/themes/)
 - [ ] breadcrumb & easy navigation
 - [ ] mobile-first, responsive layout
