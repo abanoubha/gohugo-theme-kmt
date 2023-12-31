@@ -6,10 +6,10 @@
     body {
         @apply antialiased scroll-smooth max-w-7xl mx-auto p-4 text-slate-900 bg-neutral-100 dark:text-slate-100 dark:bg-neutral-950;
     }
-    article h2, article h3, article h4, article h5, article h6 {@apply font-bold;}
-    article h2 {@apply text-2xl;}
-    article h3 {@apply text-xl;}
-    article h4 {@apply text-lg;}
+    article h2, article h3, article h4, article h5, article h6 {@apply font-bold text-slate-800 dark:text-slate-200;}
+    article h2 {@apply text-3xl;}
+    article h3 {@apply text-2xl;}
+    article h4 {@apply text-xl;}
     pre {@apply px-2 py-1 rounded;direction: ltr;}
     .menuItem {@apply mx-1 hover:underline text-blue-700 hover:text-blue-800 dark:text-blue-300 dark:hover:text-blue-200;}
     .socialLink {@apply inline-block mx-2 px-1;}
