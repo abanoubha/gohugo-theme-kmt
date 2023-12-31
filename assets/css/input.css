@@ -12,5 +12,5 @@
     article h4 {@apply text-lg;}
     pre {@apply px-2 py-1 rounded;direction: ltr;}
     .menuItem {@apply mx-1 hover:underline text-blue-700 hover:text-blue-800 dark:text-blue-300 dark:hover:text-blue-200;}
-    .socialLink {@apply inline-block md:mx-1;}
+    .socialLink {@apply inline-block mx-2 px-1;}
 }
