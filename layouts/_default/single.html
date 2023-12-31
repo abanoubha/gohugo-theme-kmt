@@ -14,12 +14,12 @@
     </div>
   </header>
 
-  <div class="grid grid-cols-4">
-    <div class="col-span-3">
+  <div class="flex flex-col-reverse md:flex-row">
+    <div>
       {{ .Content }}
     </div>
 
-    <aside class="col-span-1">
+    <aside>
       {{ .TableOfContents }}
     </aside>
   </div>
