@@ -47,3 +47,6 @@ other = "{{ .Count }} كلمة"
 
 [pageTitle]
 other = "{{ .Name }} صفحة"
+
+[blog]
+other = "المقالات"

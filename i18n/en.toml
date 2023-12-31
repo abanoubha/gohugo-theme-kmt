@@ -47,3 +47,6 @@ other = "{{ .Count }} words"
 
 [pageTitle]
 other = "{{ .Name }} page"
+
+[blog]
+other = "Posts"
