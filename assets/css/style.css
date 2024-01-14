@@ -1,3 +1,7 @@
+:root {
+    --maxwidth: 1024px;
+}
+
 html[theme='dark-mode'] {
     filter: invert(1) hue-rotate(180deg);
 }
@@ -11,6 +15,9 @@ body {
     color: #404040;
     line-height: 1.75;
     letter-spacing: 0.008em;
+    max-width: var(--maxwidth);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {
@@ -312,11 +319,11 @@ nav.navigation a.button {
 }
 
 /* index post list */
-#list-page {
-    max-width: 580px;
+/* #list-page {
+    max-width: var(--maxwidth);
     margin: 0 auto;
     padding: 0 24px;
-}
+} */
 
 #list-page .item {
     margin: 12px 0;
@@ -441,11 +448,11 @@ nav.navigation a.button {
 }
 
 
-#archive {
-    max-width: 580px;
+/* #archive {
+    max-width: var(--maxwidth);
     margin: 0 auto;
     padding: 0 24px;
-}
+} */
 
 #archive .total {
     font-size: 15px;
@@ -548,18 +555,18 @@ nav.navigation a.button {
 }
 
 /* section page */
-#section {
-    max-width: 580px;
+/* #section {
+    max-width: var(--maxwidth);
     margin: 48px auto 0 auto;
     padding: 0 12px;
-}
+} */
 
 /* 404 page */
-#page-404 {
-    max-width: 580px;
+/* #page-404 {
+    max-width: var(--maxwidth);
     margin: 0 auto;
     padding: 0 24px;
-}
+} */
 
 #page-404 .item {
     margin: 12px 0 0 0;
