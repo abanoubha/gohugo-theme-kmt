@@ -308,6 +308,9 @@ test paragraph
 test paragraph
 test paragraph
 
+![an image for example](/1684762085991.jpeg "an image for example")
+_an image for example_
+
 test paragraph
 test paragraph
 test paragraph

@@ -59,4 +59,8 @@
     .page-item.disabled {
         @apply opacity-50;
     }
+
+    p > img + em {
+        @apply opacity-60 not-italic block text-center;
+    }
 }
