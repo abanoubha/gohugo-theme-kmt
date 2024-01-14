@@ -1,4 +1,3 @@
-<h{{ .Level }} id="{{ .Anchor | safeURL }}" class="group">
-    {{ .Text | safeHTML }} <a href="#{{ .Anchor | safeURL }}" class="invisible group-hover:visible text-gray-500"
-        style="font-size: 100%;">🔗</a>
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">
+    {{ .Text | safeHTML }} <a href="#{{ .Anchor | safeURL }}" class="anchor">🔗</a>
 </h{{ .Level }}>
