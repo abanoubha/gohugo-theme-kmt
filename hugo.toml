@@ -8,6 +8,7 @@ title = 'Kmt Hugo Theme'
 languageCode = 'en-us'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
+
 [languages]
   [languages.en]
     languageCode = 'en-us'
