@@ -1,9 +1,9 @@
-<h1 class="block font-bold text-center">
+<h1>
     <a href="{{ .Site.Home.RelPermalink }}">
         {{ .Title | default site.Title }}
     </a>
 </h1>
-<nav role="navigation" class="flex gap-1 justify-center">
+<nav role="navigation">
     {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
     {{ partial "translated.html" .}}
 </nav>
