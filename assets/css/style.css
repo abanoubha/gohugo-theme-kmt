@@ -626,4 +626,10 @@ main {
 
 .socialLink {}
 
-.shareLink {}
+.shareMenu {
+    display: inline-block;
+}
+
+.shareMenu * {
+    vertical-align: middle;
+}

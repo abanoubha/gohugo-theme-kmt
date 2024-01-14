@@ -1,6 +1,6 @@
 {{ define "main" }}
 <article>
-  {{ partialCached "share.html" . }}
+
   <header>
     <h1>
       {{ .Title }}
@@ -48,6 +48,8 @@
     {{ end }}
   </div>
   {{ end}}
+
+  {{ partialCached "share.html" . }}
 
 </article>
 {{ end }}
