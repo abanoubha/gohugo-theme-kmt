@@ -68,3 +68,6 @@ other = "404 Page Not Found"
 
 [404subtitle]
 other = "Make sure you got the correct link, Or see other content below."
+
+[translations]
+other = "Translations"

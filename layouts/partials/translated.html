@@ -1,14 +1,12 @@
 {{ if .IsTranslated }}
-<div>
-    <h4>{{ T "translations" }}</h4>
-    <ul>
-        {{ range .Translations }}
-        <li>
-            <a href="{{ .RelPermalink }}" class="menuItem">
-                {{ .Language.LanguageName }} ({{ .LinkTitle }})
-            </a>
-        </li>
-        {{ end }}
-    </ul>
+<div class="translation-menu">
+    {{ T "translations" }}:&nbsp;
+
+    {{ range .Translations }}
+    <a href="{{ .RelPermalink }}">
+        {{ .Language.LanguageName }} ({{ .LinkTitle }})
+    </a>
+    {{ end }}
+
 </div>
 {{ end }}

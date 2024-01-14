@@ -213,6 +213,11 @@ nav.navigation a.button {
     }
 }
 
+.translation-menu {
+    display: block;
+    text-align: center;
+}
+
 /* toc */
 .toc {
     margin: auto;
@@ -618,5 +623,3 @@ main {
 .socialLink {}
 
 .shareLink {}
-
-.menuItem {}
