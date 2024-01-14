@@ -104,7 +104,7 @@ pre {
     max-width: 100%;
 }
 
-p > img + em {
+p>img+em {
     opacity: 0.6;
     font-style: normal;
     display: block;
@@ -585,3 +585,14 @@ nav.navigation a.button {
     top: 1px;
     color: #bbb;
 }
+
+.svgFill {
+    fill: #0366d6;
+    /* fill-blue-800 dark:fill-blue-300 */
+}
+
+.socialLink {}
+
+.shareLink {}
+
+.menuItem {}
