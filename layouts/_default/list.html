@@ -23,11 +23,22 @@
 
         {{ with .Params.tags }}
         <div class="tags">
+          {{ T "tags" }}:
           {{ range . }}
-          <a href="{{ " tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+          <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
           {{ end }}
         </div>
         {{ end}}
+
+        {{ with .Params.categories }}
+        <div class="categories">
+          {{ T "categories" }}:
+          {{ range . }}
+          <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+          {{ end }}
+        </div>
+        {{ end}}
+
       </div>
     </div>
     {{ end }}

@@ -50,3 +50,9 @@ other = "{{ .Name }} page"
 
 [blog]
 other = "Posts"
+
+[tags]
+other = "Tags"
+
+[categories]
+other = "Category"

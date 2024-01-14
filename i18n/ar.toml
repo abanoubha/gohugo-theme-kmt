@@ -50,3 +50,9 @@ other = "{{ .Name }} صفحة"
 
 [blog]
 other = "المقالات"
+
+[tags]
+other = "الوسوم"
+
+[categories]
+other = "التصنيف"
