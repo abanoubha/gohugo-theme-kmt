@@ -279,6 +279,10 @@ nav.navigation a.button {
 }
 
 /* main content */
+main {
+    margin-bottom: 1rem;
+}
+
 .main {
     width: 100%;
     margin: 0 auto;
