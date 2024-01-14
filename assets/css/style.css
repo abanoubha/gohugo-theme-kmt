@@ -484,13 +484,13 @@ nav.navigation a.button {
     color: #0366d6;
 }
 
-#archive .group .value .tags,
-#archive .group .value .categories {
+.tags,
+.categories {
     display: inline;
 }
 
-#archive .group .value .tags a,
-#archive .group .value .categories a {
+.tags a,
+.categories a {
     background: #f2f2f2;
     padding: 4px 7px;
     color: #999;
@@ -498,8 +498,8 @@ nav.navigation a.button {
     border-radius: 0.2rem;
 }
 
-#archive .group .value .tags a:hover,
-#archive .group .value .categories a:hover {
+.tags a:hover,
+.categories a:hover {
     color: #0366d6;
 }
 

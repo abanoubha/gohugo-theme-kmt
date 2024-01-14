@@ -43,7 +43,7 @@ other = "{{ .Count }} minutes read"
 
 [wordCount]
 one = "One word"
-other = "{{ .Count }} words"
+other = "{{ .WordCount }} words"
 
 [pageTitle]
 other = "{{ .Name }} page"
@@ -56,3 +56,9 @@ other = "Tags"
 
 [categories]
 other = "Category"
+
+[minuteRead]
+other = "{{ .ReadingTime }} minute read"
+
+[toc]
+other = "Table of Contents"

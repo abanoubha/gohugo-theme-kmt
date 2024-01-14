@@ -43,7 +43,7 @@ other = "{{ .Count }} دقائق لقراءة هذا المقال"
 
 [wordCount]
 one = "كلمة واحدة"
-other = "{{ .Count }} كلمة"
+other = "{{ .WordCount }} كلمة"
 
 [pageTitle]
 other = "{{ .Name }} صفحة"
@@ -56,3 +56,9 @@ other = "الوسوم"
 
 [categories]
 other = "التصنيف"
+
+[minuteRead]
+other = "{{ .ReadingTime }} دقيقة قراءة"
+
+[toc]
+other = "جدول المحتوى"

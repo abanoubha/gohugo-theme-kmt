@@ -6,23 +6,48 @@
       {{ .Title }}
     </h1>
 
-    <div>
+    <div class="tip">
       {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
       {{ $dateHuman := .Date | time.Format ":date_long" }}
       <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-
-      {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+      <span class="split">
+        ·
+      </span>
+      <span>
+        {{ i18n "wordCount" . }}
+      </span>
+      <span class="split">
+        ·
+      </span>
+      <span>
+        {{ i18n "minuteRead" . }}
+      </span>
     </div>
   </header>
 
-  <div>
-    <div>
-      {{ .Content }}
-    </div>
+  {{ partial "toc.html" . }}
 
-    <aside>
-      {{ .TableOfContents }}
-    </aside>
+  <div>
+    {{ .Content }}
   </div>
+
+  {{ with .Params.tags }}
+  <div class="tags">
+    {{ T "tags" }}:
+    {{ range . }}
+    <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end}}
+
+  {{ with .Params.categories }}
+  <div class="categories">
+    {{ T "categories" }}:
+    {{ range . }}
+    <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end}}
+
 </article>
 {{ end }}
