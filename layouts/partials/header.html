@@ -1,9 +1,13 @@
+{{ if .IsHome }}
 <h1>
-    <a href="{{ .Site.Home.RelPermalink }}">
-        {{ .Title | default site.Title }}
-    </a>
+    {{ site.Title }}
 </h1>
-<nav role="navigation">
-    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-    {{ partial "translated.html" .}}
-</nav>
+{{ else }}
+<a href="{{ .Site.Home.RelPermalink }}">
+    {{ site.Title }}
+</a>
+{{ end }}
+
+{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+
+{{ partial "translated.html" .}}
