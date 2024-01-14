@@ -105,6 +105,16 @@ pre {
     overflow-wrap: anywhere;
 }
 
+ul {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+ul:has(li input) {
+    list-style: none;
+    padding: 0;
+}
+
 .markdown-image img {
     max-width: 100%;
 }
