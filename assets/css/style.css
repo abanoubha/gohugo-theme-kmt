@@ -594,6 +594,8 @@ nav.navigation a.button {
 
 .newTabSvgFill {
     opacity: 0.4;
+    position: relative;
+    left: -0.4rem;
 }
 
 .socialLink {}
