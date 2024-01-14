@@ -52,10 +52,10 @@ other = "{{ .Name }} صفحة"
 other = "المقالات"
 
 [tags]
-other = "الوسوم"
+other = "التصنيفات"
 
 [categories]
-other = "التصنيف"
+other = "الأقسام"
 
 [minuteRead]
 other = "{{ .ReadingTime }} دقيقة قراءة"
