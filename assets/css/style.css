@@ -1,5 +1,6 @@
 :root {
     --maxwidth: 1024px;
+    --lightblue: #5badf0;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #5badf0;
+    color: var(--lightblue);
 }
 
 a:hover {
@@ -161,7 +162,7 @@ nav.navigation {
     background: #fff;
     background: rgba(255, 255, 255, 0.9);
     margin: 0 auto;
-    text-align: right;
+    text-align: center;
     z-index: 100;
 }
 
@@ -169,7 +170,7 @@ nav.navigation a {
     top: 8px;
     right: 6px;
     padding: 8px 12px;
-    color: #5badf0;
+    color: var(--lightblue);
     font-size: 13px;
     line-height: 1.35;
     border-radius: 3px;
@@ -180,7 +181,7 @@ nav.navigation a:hover {
 }
 
 nav.navigation a.button {
-    background: #5badf0;
+    background: var(--lightblue);
     color: #fff;
     margin-left: 12px;
 }
@@ -199,7 +200,7 @@ nav.navigation a.button {
         top: 8px;
         right: 6px;
         padding: 8px 8px;
-        color: #5badf0;
+        color: var(--lightblue);
         font-size: 13px;
         line-height: 1.35;
         border-radius: 3px;
