@@ -4,8 +4,6 @@ date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
 
-this is home page.
+Welcome to KMT
 
-Laborum voluptate pariatur ex culpa magna nostrud est incididunt fugiat
-pariatur do dolor ipsum enim. Consequat tempor do dolor eu. Non id id anim anim
-excepteur excepteur pariatur nostrud qui irure ullamco.
+KMT is a new minimal theme for HUGO. I created it for my needs of <https://abanoubhanna.com>
