@@ -1,6 +1,20 @@
 :root {
     --maxwidth: 1024px;
-    --lightblue: #5badf0;
+    --lightblue: #0383ec;
+    --textcolor: #404040;
+    --bgcolor: #ffffff;
+    --texthover: #0366d6;
+    --bubblebg: #f2f2f2;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --lightblue: #5badf0;
+        --textcolor: #cdcdcd;
+        --bgcolor: #000000;
+        --texthover: #95c7ff;
+        --bubblebg: #262626;
+    }
 }
 
 body {
@@ -9,7 +23,8 @@ body {
     scroll-behavior: smooth;
     line-height: 1;
     font: normal 15px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #404040;
+    color: var(--textcolor);
+    background-color: var(--bgcolor);
     line-height: 1.75;
     letter-spacing: 0.008em;
     max-width: var(--maxwidth);
@@ -24,7 +39,7 @@ a {
 }
 
 a:hover {
-    color: #0366d6;
+    color: var(--texthover);
 }
 
 /* markdown content styles */
@@ -33,8 +48,8 @@ blockquote {
     margin-bottom: 5px;
     padding-left: 1em;
     margin-left: 0px;
-    border-left: 3px solid #eee;
-    color: #757575;
+    border-left: 3px solid #999;
+    color: var(--textcolor);
 }
 
 hr {
@@ -42,7 +57,8 @@ hr {
     border: none;
     height: 2px;
     margin: 40px auto;
-    background: #eee;
+    opacity: 0.6;
+    background: var(--textcolor);
 }
 
 table {
@@ -174,8 +190,6 @@ header {
 nav.navigation {
     display: inline-block;
     padding: 20px 20px 0;
-    background: #fff;
-    background: rgba(255, 255, 255, 0.9);
     margin: 0 auto;
     text-align: center;
     z-index: 100;
@@ -192,20 +206,17 @@ nav.navigation a {
 }
 
 nav.navigation a:hover {
-    color: #0366d6;
+    color: var(--texthover);
 }
 
 nav.navigation a.button {
     background: var(--lightblue);
-    color: #fff;
     margin-left: 12px;
 }
 
 @media (max-width: 700px) {
     nav.navigation {
         padding: 20px 10px 0 0;
-        background: #fff;
-        background: rgba(255, 255, 255, 0.9);
         margin: 0 auto;
         text-align: right;
         z-index: 100;
@@ -236,8 +247,6 @@ nav.navigation a.button {
 /* toc */
 .toc {
     margin: auto;
-    background: #f8f8f8;
-    border-radius: 0;
     padding: 10px 7px;
     margin-top: 36px;
 }
@@ -270,7 +279,8 @@ footer {
     margin-top: 100px;
     margin-bottom: 100px;
     text-align: center;
-    color: #bbbbbb;
+    color: var(--textcolor);
+    opacity: 0.8;
     font-size: 14px;
 }
 
@@ -306,7 +316,7 @@ main {
     font-weight: 400;
     letter-spacing: 0px;
     font-size: 20px;
-    color: #404040;
+    color: var(--textcolor);
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -314,16 +324,11 @@ main {
 .profile h2 {
     font-size: 20px;
     font-weight: 300;
-    color: #757575;
+    color: var(--textcolor);
     margin-top: 0;
 }
 
 /* index post list */
-/* #list-page {
-    max-width: var(--maxwidth);
-    margin: 0 auto;
-    padding: 0 24px;
-} */
 
 #list-page .item {
     margin: 12px 0;
@@ -331,7 +336,7 @@ main {
 
 #list-page .title {
     display: inline-block;
-    color: #404040;
+    color: var(--textcolor);
     font-size: 20px;
     font-weight: 400;
     margin: 0;
@@ -339,12 +344,12 @@ main {
 }
 
 #list-page .title a {
-    color: #404040;
+    color: var(--textcolor);
     display: block;
 }
 
 #list-page .title a:hover {
-    color: #0366d6;
+    color: var(--texthover);
 }
 
 #list-page .date {
@@ -353,11 +358,13 @@ main {
     text-align: right;
     position: relative;
     top: 1px;
-    color: #bbb;
+    color: var(--textcolor);
+    opacity: 0.8;
 }
 
 #list-page .summary {
-    color: #757575;
+    color: var(--textcolor);
+    opacity: 0.9;
     margin-top: 12px;
     word-break: normal;
     overflow-wrap: anywhere;
@@ -367,7 +374,6 @@ main {
 #list-page .cover {
     width: 100px;
     height: 100px;
-    background: #fff;
 }
 
 #list-page .cover img {
@@ -418,7 +424,7 @@ main {
 
 #single .tip {
     text-align: center;
-    color: #8c8c8c;
+    color: var(--textcolor);
     margin-top: 18px;
     font-size: 14px;
 }
@@ -436,23 +442,16 @@ main {
 }
 
 #single .tags a {
-    background: #f2f2f2;
+    background: var(--bubblebg);
     padding: 4px 7px;
-    color: #757575;
+    color: var(--textcolor);
     font-size: 14px;
     margin-right: 3px;
 }
 
 #single .tags a:hover {
-    color: #0366d6;
+    color: var(--texthover);
 }
-
-
-/* #archive {
-    max-width: var(--maxwidth);
-    margin: 0 auto;
-    padding: 0 24px;
-} */
 
 #archive .total {
     font-size: 15px;
@@ -475,7 +474,7 @@ main {
 
 #archive .group .value .date {
     display: inline-block;
-    color: #999;
+    opacity: 0.6;
     min-width: 60px;
 }
 
@@ -484,11 +483,11 @@ main {
 }
 
 #archive .group .value .title a {
-    color: #404040;
+    color: var(--textcolor);
 }
 
 #archive .group .value .title a:hover {
-    color: #0366d6;
+    color: var(--texthover);
 }
 
 .tags,
@@ -498,16 +497,16 @@ main {
 
 .tags a,
 .categories a {
-    background: #f2f2f2;
+    background: var(--bubblebg);
     padding: 4px 7px;
-    color: #999;
+    color: var(--textcolor);
     font-size: 14px;
     border-radius: 0.2rem;
 }
 
 .tags a:hover,
 .categories a:hover {
-    color: #0366d6;
+    color: var(--texthover);
 }
 
 /* taxonomy */
@@ -541,32 +540,17 @@ main {
 
 #tags .tag a,
 #categories .cat a {
-    background: #f2f2f2;
+    background: var(--bubblebg);
     padding: 4px 7px;
-    color: #757575;
-    color: #404040;
+    color: var(--textcolor);
     font-size: 14px;
     margin-right: 3px;
 }
 
 #tags .tag a:hover,
 #categories .cat a:hover {
-    color: #0366d6;
+    color: var(--texthover);
 }
-
-/* section page */
-/* #section {
-    max-width: var(--maxwidth);
-    margin: 48px auto 0 auto;
-    padding: 0 12px;
-} */
-
-/* 404 page */
-/* #page-404 {
-    max-width: var(--maxwidth);
-    margin: 0 auto;
-    padding: 0 24px;
-} */
 
 #page-404 .item {
     margin: 12px 0 0 0;
@@ -574,7 +558,7 @@ main {
 
 #page-404 .title {
     display: inline-block;
-    color: #404040;
+    color: var(--textcolor);
     font-size: 15px;
     font-weight: 400;
     margin: 0;
@@ -599,12 +583,12 @@ main {
     text-align: right;
     position: relative;
     top: 1px;
-    color: #bbb;
+    color: var(--textcolor);
 }
 
 .svgFill,
 .newTabSvgFill {
-    fill: #0366d6;
+    fill: var(--texthover);
     /* fill-blue-800 dark:fill-blue-300 */
 }
 
