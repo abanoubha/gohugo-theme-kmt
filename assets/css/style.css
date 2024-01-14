@@ -624,7 +624,9 @@ main {
     left: -0.4rem;
 }
 
-.socialLink {}
+.socialLinks {
+    text-align: center;
+}
 
 .shareMenu {
     display: inline-block;
