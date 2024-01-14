@@ -50,20 +50,35 @@ defaultContentLanguageInSubdir = true
       gitlab = 'https://gitlab.com/abanoubha'
       codeberg = 'https://codeberg.org/abanoubha'
 
-[[menus.main]]
-name = 'Home'
-pageRef = '/'
-weight = 10
+[[languages.en.menu.main]]
+  name = 'Posts'
+  pageRef = '/posts'
+  weight = 10
 
-[[menus.main]]
-name = 'Posts'
-pageRef = '/posts'
-weight = 20
+[[languages.en.menu.main]]
+  name = 'Tags'
+  pageRef = '/tags'
+  weight = 20
 
-[[menus.main]]
-name = 'Tags'
-pageRef = '/tags'
-weight = 30
+[[languages.en.menu.main]]
+  name = 'Categories'
+  pageRef = '/categories'
+  weight = 30
+
+[[languages.ar.menu.main]]
+  name = 'المقالات'
+  pageRef = '/posts'
+  weight = 10
+
+[[languages.ar.menu.main]]
+  name = 'التصنيفات'
+  pageRef = '/tags'
+  weight = 20
+
+[[languages.ar.menu.main]]
+  name = 'الأقسام'
+  pageRef = '/categories'
+  weight = 30
 
 [module]
   [module.hugoVersion]
