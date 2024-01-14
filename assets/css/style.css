@@ -586,9 +586,14 @@ nav.navigation a.button {
     color: #bbb;
 }
 
-.svgFill {
+.svgFill,
+.newTabSvgFill {
     fill: #0366d6;
     /* fill-blue-800 dark:fill-blue-300 */
+}
+
+.newTabSvgFill {
+    opacity: 0.4;
 }
 
 .socialLink {}
