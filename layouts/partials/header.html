@@ -1,6 +1,6 @@
 <h1 class="block font-bold text-center">
-    <a href="/">
-        {{ site.Title }}
+    <a href="{{ .Site.Home.RelPermalink }}">
+        {{ .Title | default site.Title }}
     </a>
 </h1>
 <nav role="navigation" class="flex gap-1 justify-center">
