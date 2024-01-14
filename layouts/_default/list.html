@@ -17,7 +17,8 @@
       </div>
       <div class="title">
         <a href="{{ .Permalink }}">
-          {{ .Title }}
+          <h4>{{ .Title }}</h4>
+          <p>{{ .Summary }}</p>
         </a>
 
         {{ with .Params.tags }}
