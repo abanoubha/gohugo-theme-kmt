@@ -2,10 +2,6 @@
     --maxwidth: 1024px;
 }
 
-html[theme='dark-mode'] {
-    filter: invert(1) hue-rotate(180deg);
-}
-
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
