@@ -15,6 +15,11 @@
         --texthover: #95c7ff;
         --bubblebg: #262626;
     }
+    p code,
+    li code {
+        background-color: rgba(255, 255, 255, 0.16) !important;
+        border: 1px solid rgba(255, 255, 255, 0.18) !important;
+    }
 }
 
 body {
@@ -165,7 +170,8 @@ h4:hover a {
     overflow-x: auto;
 }
 
-p code {
+p code,
+li code {
     font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
     font-size: inherit;
     background-color: rgba(0, 0, 0, 0.06);
