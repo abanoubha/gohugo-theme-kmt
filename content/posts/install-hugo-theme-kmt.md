@@ -42,5 +42,5 @@ Kmt is a minimal Hugo theme created by [@AbanoubHA](https://x.com/abanoubha), an
 
     ```sh
     theme:
-        - github.com/nodejh/hugo-theme-mini
+        - github.com/abanoubha/hugo-theme-kmt
     ```
