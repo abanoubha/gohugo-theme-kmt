@@ -1,51 +1,43 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 
-<section>{{ .Content }}</section>
-
-<section id="archive">
-  {{ range .Data.Pages.GroupByDate "2006" }}
-  <div class="group">
-    <h3 class="key">
-      {{ .Key }}
-    </h3>
-
-    {{ range .Pages }}
+<article id="archive">
+  <section>
+    {{ .Content }}
+  </section>
+  <section>
+    {{ range .Paginator.Pages }}
     <div class="value">
+
       <div class="date">
         <time datetime="{{ .PublishDate }}">{{ i18n "publishDateShort" . }}</time>
       </div>
-      <div class="title">
-        <a href="{{ .Permalink }}">
-          <h4>{{ .Title }}</h4>
-        </a>
+      
+      <h2 class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
 
-        <p>{{ .Summary }}</p>
+      <p>{{ .Summary }}</p>
 
-        {{ with .Params.tags }}
-        <div class="tags">
-          {{ T "tags" }}:
-          {{ range . }}
-          <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
-          {{ end }}
-        </div>
-        {{ end}}
-
-        {{ with .Params.categories }}
-        <div class="categories">
-          {{ T "categories" }}:
-          {{ range . }}
-          <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a>
-          {{ end }}
-        </div>
-        {{ end}}
-
+      {{ with .Params.tags }}
+      <div class="tags">
+        {{ T "tags" }}:
+        {{ range . }}
+        <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
       </div>
+      {{ end}}
+
+      {{ with .Params.categories }}
+      <div class="categories">
+        {{ T "categories" }}:
+        {{ range . }}
+        <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end}}
+
     </div>
     {{ end }}
-  </div>
-  {{ end }}
-
-</section>
-
+  </section>
+  {{- template "_internal/pagination.html" . -}}
+</article>
 {{ end }}
