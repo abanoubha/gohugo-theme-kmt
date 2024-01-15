@@ -15,6 +15,7 @@
         --texthover: #95c7ff;
         --bubblebg: #262626;
     }
+
     p code,
     li code {
         background-color: rgba(255, 255, 255, 0.16) !important;
@@ -633,4 +634,10 @@ li.page-item.active {
     padding: 0.2rem;
     margin-left: 0.1rem;
     margin-right: 0.1rem;
+}
+
+.homepageTitle {
+    display: inline-block;
+    margin: 0;
+    font-size: 1.2em;
 }
