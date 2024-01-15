@@ -5,20 +5,20 @@
     {{ with .Site.Params.title404 }}
     <h1>{{ . }}</h1>
     {{ else }}
-    <h1>{{ i18n "404title" }}</h1>
+    <h1>{{ T "404title" }}</h1>
     {{ end }}
 
     {{ with .Site.Params.subtitle404 }}
     <div>{{ . }}</div>
     {{ else }}
-    <div>{{ i18n "404subtitle" }}</div>
+    <div>{{ T "404subtitle" }}</div>
     {{ end }}
   </div>
 
   {{ with .Site.Params.readMore }}
   <h2 class="read-more">{{ . }}</h2>
   {{ else }}
-  <h2 class="read-more">{{ i18n "readMore" }}</h2>
+  <h2 class="read-more">{{ T "readMore" }}</h2>
   {{ end }}
 
   {{ $pages := .Site.RegularPages }}
