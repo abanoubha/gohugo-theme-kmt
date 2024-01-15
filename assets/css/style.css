@@ -213,6 +213,7 @@ nav.navigation a {
     font-size: 13px;
     line-height: 1.35;
     border-radius: 3px;
+    text-wrap: nowrap;
 }
 
 nav.navigation a:hover {
