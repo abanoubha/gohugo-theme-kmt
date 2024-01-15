@@ -48,9 +48,6 @@ other = "{{ .WordCount }} كلمة"
 [pageTitle]
 other = "{{ .Name }} صفحة"
 
-[blog]
-other = "المقالات"
-
 [tags]
 other = "التصنيفات"
 
