@@ -3,18 +3,18 @@
   dir="{{ or site.Language.LanguageDirection `ltr` }}">
 
 <head>
-  {{ partial "head.html" . }}
+  {{ partialCached "head.html" . }}
 </head>
 
 <body>
   <header>
-    {{ partial "header.html" . }}
+    {{ partialCached "header.html" . }}
   </header>
   <main role="main">
     {{ block "main" . }}{{ end }}
   </main>
   <footer>
-    {{ partial "footer.html" . }}
+    {{ partialCached "footer.html" . }}
   </footer>
 </body>
 

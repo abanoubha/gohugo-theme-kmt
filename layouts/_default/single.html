@@ -25,7 +25,7 @@
     </div>
   </header>
 
-  {{ partial "toc.html" . }}
+  {{ partialCached "toc.html" . }}
 
   <div>
     {{ .Content }}

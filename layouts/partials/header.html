@@ -8,6 +8,6 @@
 </a>
 {{ end }}
 
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+{{ partialCached "menu.html" (dict "menuID" "main" "page" .) }}
 
-{{ partial "translated.html" .}}
+{{ partialCached "translated.html" .}}
