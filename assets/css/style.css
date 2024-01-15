@@ -181,6 +181,7 @@ li code {
     line-height: inherit;
     word-wrap: break-word;
     text-indent: 0;
+    unicode-bidi: plaintext;
 }
 
 pre code {
