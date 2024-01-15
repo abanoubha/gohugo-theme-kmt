@@ -137,7 +137,8 @@ ul:has(li input) {
     padding: 0;
 }
 
-.markdown-image img {
+.markdown-image img,
+p img {
     max-width: 100%;
 }
 
