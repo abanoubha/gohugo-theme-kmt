@@ -4,7 +4,11 @@
 </h1>
 {{ else }}
 <a href="{{ .Site.Home.RelPermalink }}">
-    {{ site.Title || "Home"}}
+    {{if site.Title }}
+        {{ site.Title }}
+    {{ else }}
+        Homepage
+    {{ end }}
 </a>
 {{ end }}
 
