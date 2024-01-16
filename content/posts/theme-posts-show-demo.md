@@ -3,11 +3,8 @@ title = "How to show posts of my kmt theme on demo but not on others' websites"
 date = 2024-01-15T20:49:30+02:00
 lastmod = 2024-01-15T20:49:30+02:00
 draft = true
-categories = [
-    'tutorials'
-    ]
 tags = [
-    'how to'
+    'tutorials'
     ]
 featured_image = ''
 description = ''

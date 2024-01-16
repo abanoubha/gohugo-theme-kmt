@@ -3,11 +3,8 @@ title = 'كيف تظهر المقالات الخاصة بـ ثيم هوجو في
 date = 2024-01-15T20:49:30+02:00
 lastmod = 2024-01-15T20:49:30+02:00
 draft = true
-categories = [
-    'شروحات'
-    ]
 tags = [
-    'كيف'
+    'شروحات'
     ]
 featured_image = ''
 description = ''

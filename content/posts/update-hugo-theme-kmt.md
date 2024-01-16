@@ -3,9 +3,6 @@ title = 'How to update Hugo Theme Kmt in my website ?'
 date = 2024-01-15T01:20:37+02:00
 lastmod = 2024-01-15T01:20:37+02:00
 draft = true
-categories = [
-    'docs'
-    ]
 tags = [
     'docs'
     ]

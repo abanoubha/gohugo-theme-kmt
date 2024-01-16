@@ -3,7 +3,6 @@ title = 'Kmt Theme Features'
 date = 2024-01-14T15:01:54+02:00
 lastmod = 2024-01-14T15:01:54+02:00
 draft = true
-categories = ['features']
 tags = ['features']
 featured_image = ''
 description = ''

@@ -3,7 +3,6 @@ title = 'كيف تثبت ثيم كِمْت ؟'
 date = 2024-01-14T15:46:46+02:00
 lastmod = 2024-01-14T15:46:46+02:00
 draft = true
-categories = ['شروحات']
 tags = ['شروحات']
 featured_image = ''
 description = ''

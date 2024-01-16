@@ -60,11 +60,6 @@ defaultContentLanguageInSubdir = true
   pageRef = '/tags'
   weight = 20
 
-[[languages.en.menu.main]]
-  name = 'Categories'
-  pageRef = '/categories'
-  weight = 30
-
 [[languages.ar.menu.main]]
   name = 'المقالات'
   pageRef = '/posts'
@@ -74,11 +69,6 @@ defaultContentLanguageInSubdir = true
   name = 'التصنيفات'
   pageRef = '/tags'
   weight = 20
-
-[[languages.ar.menu.main]]
-  name = 'الأقسام'
-  pageRef = '/categories'
-  weight = 30
 
 [module]
   [module.hugoVersion]
