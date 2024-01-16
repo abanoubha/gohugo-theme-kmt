@@ -1,7 +1,10 @@
 <section class="relatedPosts">
-    {{ $related := .Site.RegularPages.Related . | first 10 }}
+    {{ $opts := dict
+        "document" .
+        "indices" (slice "tags" "keywords")
+      }}
 
-    {{ with $related }}
+    {{ with .Site.RegularPages.Related $opts | first 10 }}
 
     <h4>{{ T "relatedPosts" }}</h4>
 
