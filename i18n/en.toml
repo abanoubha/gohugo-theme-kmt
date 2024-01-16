@@ -77,3 +77,6 @@ other = "All rights reserved"
 
 [morePosts]
 other = "More Posts →"
+
+[relatedPosts]
+other = "Related Posts | Read More Posts"

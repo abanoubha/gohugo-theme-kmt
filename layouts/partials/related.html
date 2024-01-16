@@ -1,0 +1,13 @@
+<section class="relatedPosts">
+    {{ $related := .Site.RegularPages.Related . }}
+
+    {{ if $related }}
+    <h4>{{ T "relatedPosts" }}</h4>
+    {{ end }}
+
+    {{ range first 10 $related }}
+    <a href="{{ .Permalink }}">
+        <h5>{{ .Title }}</h5>
+    </a>
+    {{ end }}
+</section>
