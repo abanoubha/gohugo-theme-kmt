@@ -25,9 +25,9 @@ Kmt is the [ancient name of Egypt](https://en.wikipedia.org/wiki/Egypt#Names) (m
 - [x] custom rendering for heading with anchor link
 - [x] custom rendering for image to set the alt text
 - [x] support image caption via `p > img + em {}` in CSS
+- [x] mobile-first, responsive layout
 - [ ] [submit the theme](https://gohugo.io/contribute/themes/)
 - [ ] breadcrumb & easy navigation
-- [ ] mobile-first, responsive layout
 - [ ] RSS
 - [ ] web native __lazy loading__ for images & iframes ([can i use](https://caniuse.com/#feat=loading-lazy-attr))
 - [ ] use WebP image to speed up the page load time ([can i use](https://caniuse.com/#feat=webp))
