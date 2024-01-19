@@ -15,6 +15,12 @@ Kmt is the [ancient name of Egypt](https://en.wikipedia.org/wiki/Egypt#Names) (m
 - <https://gohugo.io/content-management/multilingual/>
 - <https://www.freepik.com/icon/investment_3358944>
 
+## Source Code
+
+- GitHub: <https://github.com/abanoubha/gohugo-theme-kmt>
+- GitLab: <https://gitlab.com/abanoubha/gohugo-theme-kmt>
+- CodeBerg: <https://codeberg.org/abanoubha/gohugo-theme-kmt>
+
 ## Tasks
 
 - [x] ~~use tailwind css~~ (use minimal native CSS)
