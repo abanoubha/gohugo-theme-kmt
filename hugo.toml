@@ -1,3 +1,75 @@
+baseURL = 'https://gohugo-theme-kmt.netlify.app/'
+title = 'Kmt Hugo Theme'
+
+[params]
+  founded = 2023
+  adsense = 'ca-pub-4971969455307153'
+
+languageCode = 'en-us'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    languageCode = 'en-us'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    weight = 1
+    [languages.en.params]
+      author="Abanoub Hanna"
+      subTitle="A Curious Software Developer"
+      linkedin = 'https://linkedin.com/in/abanoub-hanna'
+      twitter = 'https://twitter.com/abanoubha'
+      facebook = 'https://www.facebook.com/AbanoubHannaDotCom/'
+      youtube = 'https://www.youtube.com/@abanoubha'
+      whatsapp = 'https://whatsapp.com/channel/0029VaEuW4MHLHQXRXa8vc47'
+      github = 'https://github.com/abanoubha'
+      gitlab = 'https://gitlab.com/abanoubha'
+      codeberg = 'https://codeberg.org/abanoubha'
+      instagram = '/'
+      medium = '/'
+      mastodon = '/'
+      tiktok = '/'
+      stackoverflow = '/'
+      telegram = '/'
+  [languages.ar]
+    languageCode = 'ar-eg'
+    languageDirection = 'rtl'
+    languageName = 'Arabic'
+    title = 'كِمْت ثيم هوجو'
+    weight = 2
+    [languages.ar.params]
+      author="أبانوب حَنّا"
+      subTitle="مبرمج | مطور برمجيات"
+      linkedin = 'https://linkedin.com/in/abanoub-hanna'
+      twitter = 'https://twitter.com/abanoubha'
+      facebook = 'https://www.facebook.com/AbanoubHannaDotCom/'
+      whatsapp = 'https://whatsapp.com/channel/0029VaEuW4MHLHQXRXa8vc47'
+      youtube = 'https://www.youtube.com/@abanoubha'
+      github = 'https://github.com/abanoubha'
+      gitlab = 'https://gitlab.com/abanoubha'
+      codeberg = 'https://codeberg.org/abanoubha'
+
+[[languages.en.menu.main]]
+  name = 'Posts'
+  pageRef = '/posts'
+  weight = 10
+
+[[languages.en.menu.main]]
+  name = 'Tags'
+  pageRef = '/tags'
+  weight = 20
+
+[[languages.ar.menu.main]]
+  name = 'المقالات'
+  pageRef = '/posts'
+  weight = 10
+
+[[languages.ar.menu.main]]
+  name = 'التصنيفات'
+  pageRef = '/tags'
+  weight = 20
+
 [module]
   [module.hugoVersion]
     extended = false
