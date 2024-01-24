@@ -69,5 +69,3 @@
     from= "/yt"
     to="https://www.youtube.com/@abanoubha"
     status = 301
-
-publish_branch = demo
