@@ -1,6 +1,6 @@
 # Kmt
 
-Kmt is the [ancient name of Egypt](https://en.wikipedia.org/wiki/Egypt#Names) (my home country). See [the demo here](https://gohugo-theme-kmt.netlify.app/).
+Kmt is the [ancient name of Egypt](https://en.wikipedia.org/wiki/Egypt#Names) (my home country). See [the demo here](https://abanoubhanna.com/).
 
 ## Features
 
