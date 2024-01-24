@@ -4,15 +4,9 @@ licenselink = 'https://github.com/abanoubha/gohugo-theme-kmt/LICENSE'
 description = 'experimental theme for Hugo SSG by @AbanoubHA'
 homepage = 'https://github.com/abanoubha/gohugo-theme-kmt'
 demosite = 'https://gohugo-theme-kmt.netlify.app/'
-tags = ['blog', 'company']
-features = ['bilingual', 'minimal', 'fast', 'lazyloading images']
+tags = ['blog', 'company', 'fast', 'minimalist', 'responsive', 'simple', 'tags', 'keywords', 'related posts']
+features = ['bilingual', 'minimal', 'fast', 'lazyloading images', 'related posts']
 
 [author]
   name = 'Abanoub Hanna'
   homepage = 'https://abanoubhanna.com'
-
-# If porting an existing theme
-[original]
-  author = 'Name of original author'
-  homepage = 'Website of original author'
-  repo = 'https://github.com/owner/repo'
