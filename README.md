@@ -38,6 +38,10 @@ That's it. You installed it successfully.
 
 ## Configuration
 
+## Documentation & Posts about Kmt theme
+
+- [How to install Hugo theme Kmt ?](/posts/install-hugo-theme-kmt/) ([Read it in Arabic](/ar/posts/install-hugo-theme-kmt/))
+
 ## Resources & Referrals
 
 - <https://gohugo.io/content-management/multilingual/>
