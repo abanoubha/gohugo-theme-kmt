@@ -15,7 +15,7 @@ I want to create documentation and tutorials about my Hugo theme KMT, but I want
 
 I can use another instance/project that uses kmt theme, and add posts in it, and deploy it as the kmt theme demo. But.. but this is more complicated.. I think.
 
-## Published drafts
+## ~~Published drafts~~ (read the update below)
 
 There is a simpler strategy I used. Just let the deployed version of my kmt theme demo include _draft posts_. Here are the steps.
 
@@ -73,3 +73,7 @@ I use [Netlify](https://gohugo-theme-kmt.netlify.app/) to demo my kmt theme, so 
 ```
 
 If you are using another hosting service such as _cloudflare pages_ or _github pages_, set the deploy command to include `-D` argument and you'll be fine.
+
+## Update : 24 Jan 2024
+
+I decided to use a separated project as a demo. But it will not be a new project. I will use my own website <https://AbanoubHanna.com> as the demo of the theme and I will publish the documentation there too.
