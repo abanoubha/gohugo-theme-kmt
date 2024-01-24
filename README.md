@@ -40,7 +40,7 @@ That's it. You installed it successfully.
 
 ## Documentation & Posts about Kmt theme
 
-- [How to install Hugo theme Kmt ?](/posts/install-hugo-theme-kmt/) ([Read it in Arabic](/ar/posts/install-hugo-theme-kmt/))
+- [How to install Hugo theme Kmt ?](https://abanoubhanna.com/posts/install-hugo-theme-kmt/) ([Read it in Arabic](https://abanoubhanna.com/ar/posts/install-hugo-theme-kmt/))
 
 ## Resources & Referrals
 
