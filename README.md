@@ -12,6 +12,30 @@ Kmt is the [ancient name of Egypt](https://en.wikipedia.org/wiki/Egypt#Names) (m
 
 ## Installation
 
+Install via git submodule
+
+Run this command while you are inside the folder of your Hugo site:
+
+```sh
+git submodule add  -b main --depth 1 https://github.com/abanoubha/hugo-theme-kmt.git themes/kmt
+```
+
+Add the theme’s directory to your `config.yaml` or `config.toml`:
+
+- in config.yaml
+
+```yaml
+theme: kmt
+```
+
+- in config.toml
+
+```toml
+theme = kmt
+```
+
+That's it. You installed it successfully.
+
 ## Configuration
 
 ## Resources & Referrals
