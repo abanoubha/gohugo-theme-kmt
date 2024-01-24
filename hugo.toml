@@ -26,12 +26,6 @@ defaultContentLanguageInSubdir = true
       github = 'https://github.com/abanoubha'
       gitlab = 'https://gitlab.com/abanoubha'
       codeberg = 'https://codeberg.org/abanoubha'
-      instagram = '/'
-      medium = '/'
-      mastodon = '/'
-      tiktok = '/'
-      stackoverflow = '/'
-      telegram = '/'
   [languages.ar]
     languageCode = 'ar-eg'
     languageDirection = 'rtl'
