@@ -11,7 +11,7 @@ demosite = 'https://gohugo-theme-kmt.netlify.app/'
 
 # Taxonomy terms
 tags = ['blog', 'company']
-features = ['some', 'awesome', 'features']
+features = ['bilingual', 'minimal', 'fast', 'lazyloading images']
 
 [author]
   name = 'Abanoub Hanna'
