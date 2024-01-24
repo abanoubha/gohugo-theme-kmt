@@ -5,6 +5,10 @@ Kmt is the [ancient name of Egypt](https://en.wikipedia.org/wiki/Egypt#Names) (m
 ## Features
 
 - __speed page loading__: surf the web at the speed of thought
+- __related posts__: show 'read more' section with a list of related posts
+- minimal user interface
+- __multilingual__: currently support Arabic and English (a.k.a Bilingual)
+- lazyloading images with browser-native API
 
 ## Installation
 
