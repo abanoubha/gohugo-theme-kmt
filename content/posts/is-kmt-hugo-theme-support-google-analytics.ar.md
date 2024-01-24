@@ -2,7 +2,7 @@
 title = 'هل ثيم كمت يدعم جوجل أناليتكس ؟'
 date = 2024-01-15T16:36:25+02:00
 lastmod = 2024-01-15T16:36:25+02:00
-draft = true
+draft = false
 tags = ['مزايا']
 featured_image = ''
 description = ''

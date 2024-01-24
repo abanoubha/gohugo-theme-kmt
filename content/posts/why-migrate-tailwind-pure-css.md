@@ -2,7 +2,7 @@
 title = 'Why I Migrated KMT Hugo theme from Tailwind CSS to Vanilla/Pure CSS ?'
 date = 2024-01-15T19:21:20+02:00
 lastmod = 2024-01-15T19:21:20+02:00
-draft = true
+draft = false
 tags = ['docs']
 featured_image = ''
 description = ''

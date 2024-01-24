@@ -2,7 +2,7 @@
 title = 'Does Kmt Theme Support Google Analytics?'
 date = 2024-01-15T16:36:21+02:00
 lastmod = 2024-01-15T16:36:21+02:00
-draft = true
+draft = false
 tags = ['features']
 featured_image = ''
 description = ''

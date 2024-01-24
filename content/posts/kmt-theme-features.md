@@ -2,7 +2,7 @@
 title = 'Kmt Theme Features'
 date = 2024-01-14T15:01:54+02:00
 lastmod = 2024-01-14T15:01:54+02:00
-draft = true
+draft = false
 tags = ['features']
 featured_image = ''
 description = ''

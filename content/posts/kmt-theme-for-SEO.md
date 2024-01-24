@@ -2,7 +2,7 @@
 title = 'SEO optimization in Kmt Theme'
 date = 2024-01-15T16:40:33+02:00
 lastmod = 2024-01-15T16:40:33+02:00
-draft = true
+draft = false
 tags = ['features']
 featured_image = ''
 description = ''

@@ -2,7 +2,7 @@
 title = "How to show posts of my kmt theme on demo but not on others' websites"
 date = 2024-01-15T20:49:30+02:00
 lastmod = 2024-01-15T20:49:30+02:00
-draft = true
+draft = false
 tags = [
     'tutorials'
     ]
@@ -28,7 +28,7 @@ title = 'some title'
 date = 2024-01-15T20:49:30+02:00
 lastmod = 2024-01-15T20:49:30+02:00
 - draft = false
-+ draft = true
++ draft = false
 ```
 
 ### Include draft posts in the generated website before deployment

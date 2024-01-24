@@ -2,7 +2,7 @@
 title = 'لماذا انتقلت من تيل-وند إلى سي إس إس في تصميم ثيم كمت ؟'
 date = 2024-01-19T00:10:43+02:00
 lastmod = 2024-01-19T00:10:43+02:00
-draft = true
+draft = false
 tags = ['شروحات']
 keywords = ['tailwind','css','hugo','theme']
 +++
