@@ -40,7 +40,22 @@ That's it. You installed it successfully.
 
 ## Documentation & Posts about Kmt theme
 
-- [How to install Hugo theme Kmt ?](https://abanoubhanna.com/posts/install-hugo-theme-kmt/) ([Read it in Arabic](https://abanoubhanna.com/ar/posts/install-hugo-theme-kmt/))
+- [How to install Hugo theme Kmt ?](https://abanoubhanna.com/posts/install-hugo-theme-kmt/)
+- [Social Media Buttons in Kmt Theme](https://abanoubhanna.com/posts/social-media-buttons-in-kmt/)
+- [Why I Migrated KMT Hugo theme from Tailwind CSS to Vanilla/Pure CSS ?](https://abanoubhanna.com/posts/why-migrate-tailwind-pure-css/)
+- [SEO optimization in Kmt Theme](https://abanoubhanna.com/posts/kmt-theme-for-seo/)
+- [Why I migrated my website to Hugo?](https://abanoubhanna.com/posts/why-hugo/)
+- [Why Markdown for Content?](https://abanoubhanna.com/posts/why-markdown-for-content/)
+- [Does Kmt Theme Support Google Analytics?](https://abanoubhanna.com/posts/is-kmt-hugo-theme-support-google-analytics/)
+- [Is Kmt Hugo Theme Support Adsense ?](https://abanoubhanna.com/posts/is-kmt-hugo-theme-support-adsense/)
+- [Why Another Hugo Theme?](https://abanoubhanna.com/posts/why-another-hugo-theme/)
+- [Why The Hugo Theme is Named Kmt?](https://abanoubhanna.com/posts/why-kmt-name/)
+- [How to update Hugo Theme Kmt in my website ?](https://abanoubhanna.com/posts/update-hugo-theme-kmt/)
+- [How to install Hugo theme Kmt ?](https://abanoubhanna.com/posts/install-hugo-theme-kmt/)
+- [How to effectively delete a git submodule ?](https://abanoubhanna.com/posts/delete-git-submodule/)
+- [Recreated the Website to be futureproof](https://abanoubhanna.com/posts/recreated-the-website/)
+
+\* all these above posts has Arabic translations.
 
 ## Resources & Referrals
 
