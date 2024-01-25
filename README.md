@@ -55,7 +55,7 @@ That's it. You installed it successfully.
 - [How to effectively delete a git submodule ?](https://abanoubhanna.com/posts/delete-git-submodule/)
 - [Recreated the Website to be futureproof](https://abanoubhanna.com/posts/recreated-the-website/)
 
-\* all these above posts has Arabic translations.
+\* all above posts have Arabic translations.
 
 ## Resources & Referrals
 
