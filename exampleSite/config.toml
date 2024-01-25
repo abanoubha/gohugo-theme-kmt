@@ -1,5 +1,4 @@
-title = "Notre-Dame de Paris"
-baseURL = "https://gohugo-theme-kmt.netlify.app/"
+baseURL = "https://abanoubhanna.com/"
 languageCode = "en-us"
 theme = ["github.com/abanoubha/gohugo-theme-kmt"]
 resourceDir = "../resources"
@@ -10,16 +9,70 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
 googleAnalytics = ""
 enableRobotsTXT = true
 
+[params]
+  founded = 2023
+  adsense = 'ca-pub-xxxxxxxxxxxxx'
+
 [languages]
   [languages.en]
-    title = "kmt"
+    languageCode = 'en-us'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = "kmt theme"
     weight = 1
-    contentDir = "content/en"
-    # languageDirection = 'rtl' for Right-To-Left languages
-  [languages.fr]
-    title = "kmt ar"
+    [languages.en.params]
+      author="Abanoub Hanna"
+      subTitle="A Curious Software Developer"
+      linkedin = 'https://linkedin.com/in/abanoub-hanna'
+      twitter = 'https://twitter.com/abanoubha'
+      facebook = 'https://www.facebook.com/AbanoubHannaDotCom/'
+      youtube = 'https://www.youtube.com/@abanoubha'
+      whatsapp = 'https://whatsapp.com/channel/0029VaEuW4MHLHQXRXa8vc47'
+      github = 'https://github.com/abanoubha'
+      gitlab = 'https://gitlab.com/abanoubha'
+      codeberg = 'https://codeberg.org/abanoubha'
+  [languages.ar]
+    languageCode = 'ar-eg'
+    languageDirection = 'rtl'
+    languageName = 'Arabic'
+    title = 'كِمْت ثيم هوجو'
     weight = 2
-    contentDir = "content/ar"
+    [languages.ar.params]
+      author="أبانوب حَنّا"
+      subTitle="مبرمج | مطور برمجيات"
+      linkedin = 'https://linkedin.com/in/abanoub-hanna'
+      twitter = 'https://twitter.com/abanoubha'
+      facebook = 'https://www.facebook.com/AbanoubHannaDotCom/'
+      whatsapp = 'https://whatsapp.com/channel/0029VaEuW4MHLHQXRXa8vc47'
+      youtube = 'https://www.youtube.com/@abanoubha'
+      github = 'https://github.com/abanoubha'
+      gitlab = 'https://gitlab.com/abanoubha'
+      codeberg = 'https://codeberg.org/abanoubha'
+
+[[languages.en.menu.main]]
+  name = 'Posts'
+  pageRef = '/posts'
+  weight = 10
+
+[[languages.en.menu.main]]
+  name = 'Tags'
+  pageRef = '/tags'
+  weight = 20
+
+[[languages.ar.menu.main]]
+  name = 'المقالات'
+  pageRef = '/posts'
+  weight = 10
+
+[[languages.ar.menu.main]]
+  name = 'التصنيفات'
+  pageRef = '/tags'
+  weight = 20
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.121.0"
 
 [sitemap]
   changefreq = "monthly"
@@ -31,10 +84,5 @@ enableRobotsTXT = true
   author = ""
   favicon = "/images/favicon.png"
   site_logo = ""
-  description = "The last theme you'll ever need.
-  background_color_class = "bg-black"
+  description = "simple minimal theme"
   recent_posts_number = 10
-
-[[params.kmt_socials]]
-name = "x (pka twitter)"
-url = "https://twitter.com/abanoubha"
