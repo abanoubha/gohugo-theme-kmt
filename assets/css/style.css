@@ -459,35 +459,15 @@ li.page-item.active {
     }
 }
 
-#single .tip {
-    text-align: center;
+.tip {
+    display: flex;
     color: var(--textcolor);
+    opacity: 0.6;
     margin-top: 18px;
     font-size: 14px;
-}
-
-#single .tip .split {
-    margin: 0 4px;
-}
-
-#single .content {
-    margin-top: 36px;
-}
-
-#single .tags {
-    margin-top: 24px;
-}
-
-#single .tags a {
-    background: var(--bubblebg);
-    padding: 4px 7px;
-    color: var(--textcolor);
-    font-size: 14px;
-    margin-right: 3px;
-}
-
-#single .tags a:hover {
-    color: var(--texthover);
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
 }
 
 #archive .total {
