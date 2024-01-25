@@ -72,4 +72,4 @@ That's it. You installed it successfully.
 - [ ] use WebP image to speed up the page load time ([can i use](https://caniuse.com/#feat=webp))
 - [ ] feature: 'read aloud' or 'read for me' (text to speech)
 
-This HUGO theme is open source. Feel free to send [pull requests](pulls) and/or write [issues](https://github.com/abanoubha/gohugo-theme-kmt/issues).
+This HUGO theme is open source. Feel free to send [pull requests](https://github.com/abanoubha/gohugo-theme-kmt/pulls) and/or write [issues](https://github.com/abanoubha/gohugo-theme-kmt/issues).
