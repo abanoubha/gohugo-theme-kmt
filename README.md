@@ -52,7 +52,6 @@ That's it. You installed it successfully.
 - [Why Another Hugo Theme?](https://abanoubhanna.com/posts/why-another-hugo-theme/)
 - [Why The Hugo Theme is Named Kmt?](https://abanoubhanna.com/posts/why-kmt-name/)
 - [How to update Hugo Theme Kmt in my website ?](https://abanoubhanna.com/posts/update-hugo-theme-kmt/)
-- [How to install Hugo theme Kmt ?](https://abanoubhanna.com/posts/install-hugo-theme-kmt/)
 - [How to effectively delete a git submodule ?](https://abanoubhanna.com/posts/delete-git-submodule/)
 - [Recreated the Website to be futureproof](https://abanoubhanna.com/posts/recreated-the-website/)
 
