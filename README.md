@@ -56,7 +56,7 @@ That's it. You installed it successfully.
 ## Tasks
 
 - [x] ~~use tailwind css~~ (use minimal native CSS)
-- [x] setup a [demo](https://gohugo-theme-kmt.netlify.app/) on netlify
+- [x] setup a [demo](https://AbanoubHanna.com/) on netlify
 - [x] SEO meta tags
 - [x] generate sitemap(s)
 - [x] link to translation of current page
