@@ -10,6 +10,7 @@ Kmt is the [ancient name of Egypt](https://en.wikipedia.org/wiki/Egypt#Names) (m
 - __multilingual__: currently support Arabic and English (a.k.a Bilingual)
 - lazyloading images with browser-native API
 - show last modification/update date of each post
+- __featured posts__: show featured posts pinned on top of index page
 
 ## Installation
 
