@@ -351,57 +351,19 @@ main {
     margin-top: 0;
 }
 
-/* index post list */
-
-#list-page .item {
-    margin: 12px 0;
+.post {
+    margin: 1rem auto;
 }
 
-#list-page .title {
-    display: inline-block;
+.title {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
     color: var(--textcolor);
     font-size: 20px;
     font-weight: 400;
     margin: 0;
     width: 80%;
-}
-
-#list-page .title a {
-    color: var(--textcolor);
-    display: block;
-}
-
-#list-page .title a:hover {
-    color: var(--texthover);
-}
-
-#list-page .date {
-    width: 20%;
-    float: right;
-    text-align: right;
-    position: relative;
-    top: 1px;
-    color: var(--textcolor);
-    opacity: 0.8;
-}
-
-#list-page .summary {
-    color: var(--textcolor);
-    opacity: 0.9;
-    margin-top: 12px;
-    word-break: normal;
-    overflow-wrap: anywhere;
-    margin-bottom: 36px;
-}
-
-#list-page .cover {
-    width: 100px;
-    height: 100px;
-}
-
-#list-page .cover img {
-    width: 100%;
-    text-align: center;
 }
 
 /* pagination */
@@ -433,20 +395,6 @@ li.page-item.active {
     border: 1px solid var(--lightblue);
 }
 
-/* single page */
-#single {
-    max-width: 680px;
-    margin: 60px auto 0 auto;
-    padding: 0 64px;
-}
-
-#single .title {
-    text-align: center;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 48px;
-}
-
 @media (max-width: 700px) {
     #single {
         padding: 0 18px;
@@ -468,31 +416,6 @@ li.page-item.active {
     justify-content: center;
     align-items: center;
     gap: 0.4rem;
-}
-
-#archive .total {
-    font-size: 15px;
-}
-
-#archive .group {
-    margin: 24px auto;
-}
-
-#archive .group .key {
-    font-size: 20px;
-    margin-bottom: 12px;
-}
-
-#archive .group .value {
-    display: block;
-    font-size: 16px;
-    margin-bottom: 12px;
-}
-
-#archive .group .value .date {
-    display: inline-block;
-    opacity: 0.6;
-    min-width: 60px;
 }
 
 .tags,
@@ -550,45 +473,6 @@ li.page-item.active {
     color: var(--textcolor);
     font-size: 14px;
     margin-right: 3px;
-}
-
-#tags .tag a:hover,
-#categories .cat a:hover {
-    color: var(--texthover);
-}
-
-#page-404 .item {
-    margin: 12px 0 0 0;
-}
-
-#page-404 .title {
-    display: inline-block;
-    color: var(--textcolor);
-    font-size: 15px;
-    font-weight: 400;
-    margin: 0;
-    width: 80%;
-}
-
-#page-404 .text {
-    text-align: center;
-    margin-top: 60px;
-}
-
-#page-404 .read-more {
-    font-weight: 300;
-    font-size: 20px;
-    margin-top: 48px;
-    margin-bottom: 12px;
-}
-
-#page-404 .date {
-    width: 20%;
-    float: right;
-    text-align: right;
-    position: relative;
-    top: 1px;
-    color: var(--textcolor);
 }
 
 .svgFill,
