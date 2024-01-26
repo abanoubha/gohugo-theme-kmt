@@ -81,6 +81,7 @@ That's it. You installed it successfully.
 - [x] mobile-first, responsive layout
 - [x] web native __lazy loading__ for images
 - [x] show lastmod/updated_at datetime if exists
+- [x] show pinned/featured posts upfront
 - [ ] [submit the theme](https://gohugo.io/contribute/themes/)
 - [ ] breadcrumb & easy navigation
 - [ ] RSS
