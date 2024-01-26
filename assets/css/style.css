@@ -495,18 +495,6 @@ li.page-item.active {
     min-width: 60px;
 }
 
-#archive .group .value .title {
-    display: inline;
-}
-
-#archive .group .value .title a {
-    color: var(--textcolor);
-}
-
-#archive .group .value .title a:hover {
-    color: var(--texthover);
-}
-
 .tags,
 .categories {
     display: inline;
