@@ -84,6 +84,7 @@ That's it. You installed it successfully.
 - [x] show lastmod/updated_at datetime if exists
 - [x] show pinned/featured posts upfront
 - [x] show only posts in feed/index
+- [x] show pages links in the footer
 - [ ] [submit the theme](https://gohugo.io/contribute/themes/)
 - [ ] breadcrumb & easy navigation
 - [ ] RSS
