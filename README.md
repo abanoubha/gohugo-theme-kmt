@@ -86,6 +86,7 @@ That's it. You installed it successfully.
 - [x] show only posts in feed/index
 - [x] show pages links in the footer
 - [ ] ability to set accent color in config.toml
+- [ ] ability to set link color in config.toml
 - [ ] [submit the theme](https://gohugo.io/contribute/themes/)
 - [ ] breadcrumb & easy navigation
 - [ ] RSS
