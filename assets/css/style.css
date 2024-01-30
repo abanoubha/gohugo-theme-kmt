@@ -509,3 +509,8 @@ li.page-item.active {
     margin: 0;
     font-size: 1.2em;
 }
+
+.pages a {
+    display: inline-block;
+    margin: 4px;
+}

@@ -249,6 +249,12 @@
 
 </div>
 
+<div class="pages">
+    {{ range (where .Site.RegularPages "Type" "pages") }}
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{ end }}
+</div>
+
 <p class="copyright">
     &copy;
     {{ if eq .Site.Params.founded now.Year }}
