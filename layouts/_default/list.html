@@ -50,7 +50,7 @@
     {{ end }}
   </section>
   <section>
-    {{ range .Paginator.Pages }}
+    {{ range (where .Paginator.Pages "Type" "posts") }}
     <div class="post">
 
       <div class="date">
