@@ -88,6 +88,7 @@ That's it. You installed it successfully.
 - [ ] ability to set accent color in config.toml
 - [ ] ability to set link color in config.toml
 - [ ] ability to set darkmode background color in config.toml
+- [ ] ability to set lightmode background color in config.toml
 - [ ] [submit the theme](https://gohugo.io/contribute/themes/)
 - [ ] breadcrumb & easy navigation
 - [ ] RSS
