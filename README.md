@@ -85,6 +85,7 @@ That's it. You installed it successfully.
 - [x] show pinned/featured posts upfront
 - [x] show only posts in feed/index
 - [x] show pages links in the footer
+- [ ] ability to set accent color in config.toml
 - [ ] [submit the theme](https://gohugo.io/contribute/themes/)
 - [ ] breadcrumb & easy navigation
 - [ ] RSS
