@@ -16,6 +16,9 @@ defaultContentLanguage = 'en'
     languageName = 'العربية'
     weight = 2
 
+[params]
+  founded = 2024
+
 [module]
   [module.hugoVersion]
     extended = false
