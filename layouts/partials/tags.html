@@ -1,8 +1,10 @@
-{{ with .Params.tags }}
+{{ with .GetTerms "tags" }}
 <div class="tags">
     {{ T "tags" }}:
     {{ range . }}
-    <a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+    <a href="{{ .RelPermalink }}">
+        {{- .LinkTitle -}}
+    </a>
     {{ end }}
 </div>
-{{ end}}
+{{ end }}
