@@ -49,3 +49,5 @@ Here it is:
      </a>
   {{ end }}
 ```
+
+For more details, read the explanation of this in a [post on AbanoubHanna.com](https://abanoubhanna.com/posts/multiligual-tags-links/)
