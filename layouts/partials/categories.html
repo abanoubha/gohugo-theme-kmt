@@ -1,0 +1,8 @@
+{{ with .Params.categories }}
+<div class="categories">
+    {{ T "categories" }}:
+    {{ range . }}
+    <a href="{{ "categories/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+</div>
+{{ end}}
