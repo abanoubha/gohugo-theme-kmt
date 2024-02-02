@@ -36,7 +36,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
     line-height: 1;
-    font: normal 15px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font: normal 20px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: var(--textcolor);
     background-color: var(--bgcolor);
     line-height: 1.75;
