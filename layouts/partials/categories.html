@@ -1,8 +1,10 @@
-{{ with .Params.categories }}
+{{ with .GetTerms "categories" }}
 <div class="categories">
     {{ T "categories" }}:
     {{ range . }}
-    <a href="{{ "categories/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+    <a href="{{ .RelPermalink }}">
+        {{- .LinkTitle -}}
+    </a>
     {{ end }}
 </div>
-{{ end}}
+{{ end }}
