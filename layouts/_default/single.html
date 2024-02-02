@@ -56,7 +56,7 @@
   <div class="tags">
     {{ T "tags" }}:
     {{ range . }}
-    <a href="{{ " tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+    <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
     {{ end }}
   </div>
   {{ end}}
@@ -65,7 +65,7 @@
   <div class="categories">
     {{ T "categories" }}:
     {{ range . }}
-    <a href="{{ " categories/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+    <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a>
     {{ end }}
   </div>
   {{ end}}
