@@ -63,6 +63,10 @@ That's it. You installed it successfully.
 - <https://gohugo.io/content-management/multilingual/>
 - <https://www.freepik.com/icon/investment_3358944>
 
+## Documented Code Problems
+
+- [support multilingual tags/categories url](multilingual_tags_categories.md)
+
 ## Source Code
 
 - GitHub: <https://github.com/abanoubha/gohugo-theme-kmt>
