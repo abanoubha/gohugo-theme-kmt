@@ -89,6 +89,7 @@ That's it. You installed it successfully.
 - [x] show pinned/featured posts upfront
 - [x] show only posts in feed/index
 - [x] show pages links in the footer
+- [x] support multilanguage in links of tags and categories
 - [ ] ability to set accent color in config.toml
 - [ ] ability to set link color in config.toml
 - [ ] ability to set darkmode background color in config.toml
