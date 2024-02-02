@@ -1,6 +1,26 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'KMT Theme'
+
+defaultContentLanguage = 'en'
+
+[languages]
+  [languages.en]
+    languagedirection = 'ltr'
+    title = 'KMT Theme'
+    languageName = 'English'
+    weight = 1
+  [languages.ar]
+    languagedirection = 'rtl'
+    title = 'ثيم كِمْت'
+    languageName = 'العربية'
+    weight = 2
+
 [module]
   [module.hugoVersion]
     extended = false
     min = "0.121.0"
 
 enableGitInfo = true
+showWordCounter = true
+showReadTime = true
