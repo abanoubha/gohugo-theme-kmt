@@ -220,6 +220,7 @@ nav.navigation {
 }
 
 nav.navigation a {
+    display: inline-block;
     top: 8px;
     right: 6px;
     padding: 8px 12px;
