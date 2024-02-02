@@ -52,14 +52,7 @@
     {{ .Content }}
   </div>
 
-  {{ with .Params.tags }}
-  <div class="tags">
-    {{ T "tags" }}:
-    {{ range . }}
-    <a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
-    {{ end }}
-  </div>
-  {{ end}}
+  {{ partial "tags.html" . }}
 
   {{ with .Params.categories }}
   <div class="categories">
