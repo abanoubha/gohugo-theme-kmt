@@ -224,7 +224,7 @@ nav.navigation a {
     right: 6px;
     padding: 8px 12px;
     color: var(--lightblue);
-    font-size: 13px;
+    /* font-size: 13px; */
     line-height: 1.35;
     border-radius: 3px;
     text-wrap: nowrap;
@@ -252,7 +252,7 @@ nav.navigation a.button {
         right: 6px;
         padding: 8px 8px;
         color: var(--lightblue);
-        font-size: 13px;
+        /* font-size: 13px; */
         line-height: 1.35;
         border-radius: 3px;
     }
@@ -306,7 +306,7 @@ footer {
     text-align: center;
     color: var(--textcolor);
     opacity: 0.8;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 footer .copyright {
@@ -340,14 +340,14 @@ main {
 .profile h1 {
     font-weight: 400;
     letter-spacing: 0px;
-    font-size: 20px;
+    font-size: 24px;
     color: var(--textcolor);
     margin-bottom: 0;
     margin-top: 0;
 }
 
 .profile h2 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 300;
     color: var(--textcolor);
     margin-top: 0;
@@ -362,7 +362,7 @@ main {
     align-items: center;
     gap: 1rem;
     color: var(--textcolor);
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
     margin: 0;
     width: 80%;
