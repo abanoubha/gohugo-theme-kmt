@@ -201,7 +201,8 @@ pre code {
 }
 
 code,
-pre {
+pre,
+.highlight div table {
     unicode-bidi: plaintext;
     direction: ltr;
 }

@@ -27,3 +27,12 @@ defaultContentLanguage = 'en'
 enableGitInfo = true
 showWordCounter = true
 showReadTime = true
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    noHl = false
+    style = 'monokai'
+    tabWidth = 4
