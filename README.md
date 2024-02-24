@@ -19,7 +19,7 @@ Install via git submodule
 Run this command while you are inside the folder of your Hugo site:
 
 ```sh
-git submodule add  -b main --depth 1 https://github.com/abanoubha/hugo-theme-kmt.git themes/kmt
+git submodule add  -b main --depth 1 https://github.com/abanoubha/gohugo-theme-kmt.git themes/kmt
 ```
 
 Add the theme’s directory to your `config.yaml` or `config.toml`:
