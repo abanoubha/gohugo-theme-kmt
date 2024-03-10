@@ -18,6 +18,7 @@
         --shade: rgba(59, 59, 59, 0.4);
     }
 
+    td code,
     p code,
     li code {
         background-color: rgba(255, 255, 255, 0.16) !important;
@@ -183,6 +184,7 @@ pre {
     overflow-x: auto;
 }
 
+td code,
 p code,
 li code {
     font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
