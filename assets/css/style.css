@@ -123,6 +123,7 @@ h1,
 h2,
 h3 {
     font-weight: 400;
+    border-bottom: solid var(--bubblebg);
 }
 
 p {
