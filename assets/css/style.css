@@ -126,8 +126,8 @@ h3 {
 }
 
 p {
-    margin-block-start: 1.5em;
-    margin-block-end: 1.5em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
 }
 
 p,
@@ -359,7 +359,9 @@ main {
 }
 
 .post {
-    margin: 1rem auto;
+    padding-bottom: 1rem;
+    margin: 0 auto 1rem auto;
+    border-bottom: solid var(--bubblebg);
 }
 
 .title {
