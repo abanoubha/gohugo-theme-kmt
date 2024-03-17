@@ -123,6 +123,11 @@ h1,
 h2,
 h3 {
     font-weight: 400;
+}
+
+#post h1,
+#post h2,
+#post h3 {
     border-bottom: solid var(--bubblebg);
 }
 
