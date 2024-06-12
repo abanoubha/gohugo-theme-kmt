@@ -149,7 +149,7 @@ ul {
 
 ul:has(li input) {
     list-style: none;
-    padding: 0;
+    /* padding: 0; */
 }
 
 .markdown-image img,
