@@ -96,4 +96,20 @@
   {{ $k = "⎋ esc" }}
 {{ end }}
 
+{{ with eq $k "PGUP" }}
+  {{ $k = "PgUp" }}
+{{ end }}
+
+{{ with eq $k "PAGEUP" }}
+  {{ $k = "PgUp" }}
+{{ end }}
+
+{{ with eq $k "PGDN" }}
+  {{ $k = "PgDn" }}
+{{ end }}
+
+{{ with eq $k "PAGEDOWN" }}
+  {{ $k = "PgDn" }}
+{{ end }}
+
 <kbd>{{ $k }}</kbd>
