@@ -160,4 +160,12 @@
   {{ $k = "PrtScn" }}
 {{ end }}
 
+{{ with eq $k "NUMLOCK" }}
+  {{ $k = "⇭ Num Lock" }}
+{{ end }}
+
+{{ with eq $k "NUMERICLOCK" }}
+  {{ $k = "⇭ Num Lock" }}
+{{ end }}
+
 <kbd>{{ $k }}</kbd>
