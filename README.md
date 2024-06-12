@@ -90,6 +90,7 @@ That's it. You installed it successfully.
 - [x] show only posts in feed/index
 - [x] show pages links in the footer
 - [x] support multilanguage in links of tags and categories
+- [x] add keyboard key by kbd shortcode `{{< kbd command >}}`.
 - [ ] ability to set accent color in config.toml
 - [ ] ability to set link color in config.toml
 - [ ] ability to set darkmode background color in config.toml
