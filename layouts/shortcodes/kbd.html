@@ -116,4 +116,28 @@
   {{ $k = "PgDn" }}
 {{ end }}
 
+{{ with eq $k "WIN" }}
+  {{ $k = "⊞ Win" }}
+{{ end }}
+
+{{ with eq $k "WINKEY" }}
+  {{ $k = "⊞ Win" }}
+{{ end }}
+
+{{ with eq $k "SUPERKEY" }}
+  {{ $k = "❖ Super" }}
+{{ end }}
+
+{{ with eq $k "SUPER" }}
+  {{ $k = "❖ Super" }}
+{{ end }}
+
+{{ with eq $k "META" }}
+  {{ $k = "◆ Meta" }}
+{{ end }}
+
+{{ with eq $k "HYPER" }}
+  {{ $k = "✦ Hyper" }}
+{{ end }}
+
 <kbd>{{ $k }}</kbd>
