@@ -140,4 +140,24 @@
   {{ $k = "✦ Hyper" }}
 {{ end }}
 
+{{ with eq $k "PRINT" }}
+  {{ $k = "PrtScn" }}
+{{ end }}
+
+{{ with eq $k "PRINTSCREEN" }}
+  {{ $k = "PrtScn" }}
+{{ end }}
+
+{{ with eq $k "PRTSCN" }}
+  {{ $k = "PrtScn" }}
+{{ end }}
+
+{{ with eq $k "PRTSCR" }}
+  {{ $k = "PrtScn" }}
+{{ end }}
+
+{{ with eq $k "PRTSC" }}
+  {{ $k = "PrtScn" }}
+{{ end }}
+
 <kbd>{{ $k }}</kbd>
