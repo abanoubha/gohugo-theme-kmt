@@ -1,0 +1,99 @@
+{{ $k :=.Get 0 | safeHTML | upper }}
+
+{{ with eq $k "COMMAND" }}
+  {{ $k = "⌘" }}
+{{ end }}
+
+{{ with eq $k "CMD" }}
+  {{ $k = "command ⌘" }}
+{{ end }}
+
+{{ with eq $k "OPTION" }}
+  {{ $k = "option ⌥" }}
+{{ end }}
+
+{{ with eq $k "SHIFT" }}
+  {{ $k = "shift ⇧" }}
+{{ end }}
+
+{{ with eq $k "ALT" }}
+  {{ $k = "Alt" }}
+{{ end }}
+
+{{ with eq $k "CONTROL" }}
+  {{ $k = "Ctrl" }}
+{{ end }}
+
+{{ with eq $k "CTRL" }}
+  {{ $k = "Ctrl" }}
+{{ end }}
+
+{{ with eq $k "PLUS" }}
+  {{ $k = "+" }}
+{{ end }}
+
+{{ with eq $k "EQUAL" }}
+  {{ $k = "=" }}
+{{ end }}
+
+{{ with eq $k "EQ" }}
+  {{ $k = "=" }}
+{{ end }}
+
+{{ with eq $k "TELDE" }}
+  {{ $k = "~" }}
+{{ end }}
+
+{{ with eq $k "TAB" }}
+  {{ $k = "tab ⇥" }}
+{{ end }}
+
+{{ with eq $k "CAPS" }}
+  {{ $k = "caps lock" }}
+{{ end }}
+
+{{ with eq $k "ENTER" }}
+  {{ $k = "↵ Enter" }}
+{{ end }}
+
+{{ with eq $k "DELETE" }}
+  {{ $k = "Delete ⌦" }}
+{{ end }}
+
+{{ with eq $k "BACKSPACE" }}
+  {{ $k = "⌫ Backspace" }}
+{{ end }}
+
+{{ with eq $k "SPACEBAR" }}
+  {{ $k = "␣ Spacebar" }}
+{{ end }}
+
+{{ with eq $k "SPACE" }}
+  {{ $k = "␣ Spacebar" }}
+{{ end }}
+
+{{ with eq $k "UP" }}
+  {{ $k = "▲" }}
+{{ end }}
+
+{{ with eq $k "RIGHT" }}
+  {{ $k = "▶" }}
+{{ end }}
+
+{{ with eq $k "DOWN" }}
+  {{ $k = "▼" }}
+{{ end }}
+
+{{ with eq $k "LEFT" }}
+  {{ $k = "◀" }}
+{{ end }}
+
+{{ with eq $k "ESC" }}
+  {{ $k = "⎋ esc" }}
+{{ end }}
+
+{{ with eq $k "ESCAPE" }}
+  {{ $k = "⎋ esc" }}
+{{ end }}
+
+<kbd>{{ $k }}</kbd>

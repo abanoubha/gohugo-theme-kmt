@@ -527,3 +527,17 @@ li.page-item.active {
     display: inline-block;
     margin: 4px;
 }
+
+kbd {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 2px 0px #ccc, 0 2px 4px rgba(0, 204, 204, 0.5);
+    -moz-box-shadow: 0 2px 0px #ccc, 0 2px 4px rgba(0, 204, 204, 0.5);
+    box-shadow: 0 2px 0px #ccc, 0 2px 4px rgba(0, 204, 204, 0.5);
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-size: .9em;
+    padding: 0em .6em;
+    white-space: nowrap;
+}
