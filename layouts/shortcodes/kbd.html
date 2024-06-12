@@ -1,7 +1,7 @@
 {{ $k :=.Get 0 | safeHTML | upper }}
 
 {{ with eq $k "COMMAND" }}
-  {{ $k = "⌘" }}
+  {{ $k = "command ⌘" }}
 {{ end }}
 
 {{ with eq $k "CMD" }}
