@@ -60,6 +60,10 @@
   {{ $k = "Delete ⌦" }}
 {{ end }}
 
+{{ with eq $k "DEL" }}
+  {{ $k = "Del" }}
+{{ end }}
+
 {{ with eq $k "BACKSPACE" }}
   {{ $k = "⌫ Backspace" }}
 {{ end }}
