@@ -29,6 +29,9 @@
     </div>
     {{ end }}
   </section>
+
+  {{ partial "ad.html" . }}
+
   <section>
     {{ range (where .Paginator.Pages "Type" "posts") }}
     <div class="post">

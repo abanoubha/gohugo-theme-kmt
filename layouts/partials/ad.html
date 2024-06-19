@@ -1,0 +1,9 @@
+{{ with .Site.Params.ad.href }}
+<a href="{{ . }}" target="_blank">
+    <picture>
+        <source type="image/webp" srcset="{{ .Site.Params.ad.webp }}">
+        <img loading="lazy" decoding="async" src="{{ .Site.Params.ad.png }}" alt="{{ .Site.Params.ad.alt }}"
+            style="width:100%">
+    </picture>
+</a>
+{{ end }}
