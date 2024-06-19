@@ -92,6 +92,7 @@ That's it. You installed it successfully.
 - [x] support multilanguage in links of tags and categories
 - [x] add keyboard key by kbd shortcode `{{< kbd command >}}`.
 - [x] add abbr shortcode `{{< abbr SEO "Search Engine Optimization" >}}`.
+- [x] ability to show ad banner in homepage and post page
 - [ ] ability to set accent color in config.toml
 - [ ] ability to set link color in config.toml
 - [ ] ability to set darkmode background color in config.toml
