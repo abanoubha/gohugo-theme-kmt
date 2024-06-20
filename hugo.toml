@@ -18,6 +18,10 @@ defaultContentLanguage = 'en'
 
 [params]
   founded = 2024
+  adLink="https://www.waffarx.com/ar-us/r/DQUY5NYM"
+  adWebp="/img/waffarx-banner.webp"
+  adPng="/img/waffarx-banner.png"
+  adAlt="waffarx cash back"
 
 [module]
   [module.hugoVersion]
@@ -36,9 +40,3 @@ showReadTime = true
     noHl = false
     style = 'monokai'
     tabWidth = 4
-
-[ad]
-  href="https://www.waffarx.com/ar-us/r/DQUY5NYM"
-  webp="/img/waffarx-banner.webp"
-  png="/img/waffarx-banner.png"
-  alt="waffarx cash back"

@@ -30,7 +30,7 @@
     {{ end }}
   </section>
 
-  {{ partial "ad.html" . }}
+  {{ partialCached "ad.html" . }}
 
   <section>
     {{ range (where .Paginator.Pages "Type" "posts") }}
