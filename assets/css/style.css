@@ -541,3 +541,8 @@ kbd {
     padding: 0em .6em;
     white-space: nowrap;
 }
+
+abbr {
+    text-decoration: underline;
+    text-decoration-style: dotted;    
+}
