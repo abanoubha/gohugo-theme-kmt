@@ -73,35 +73,37 @@ That's it. You installed it successfully.
 - GitLab: <https://gitlab.com/abanoubha/gohugo-theme-kmt>
 - CodeBerg: <https://codeberg.org/abanoubha/gohugo-theme-kmt>
 
-## Tasks
+## Roadmap & Tasks
 
-- [x] ~~use tailwind css~~ (use minimal native CSS)
-- [x] setup a [demo](https://AbanoubHanna.com/)
-- [x] SEO meta tags
-- [x] generate sitemap(s)
-- [x] link to translation of current page
-- [x] custom rendering for heading with anchor link
-- [x] custom rendering for image to set the alt text
-- [x] support image caption via `p > img + em {}` in CSS
-- [x] mobile-first, responsive layout
-- [x] web native __lazy loading__ for images
-- [x] show lastmod/updated_at datetime if exists
-- [x] show pinned/featured posts upfront
-- [x] show only posts in feed/index
-- [x] show pages links in the footer
-- [x] support multilanguage in links of tags and categories
-- [x] add keyboard key by kbd shortcode `{{< kbd command >}}`.
-- [x] add abbr shortcode `{{< abbr SEO "Search Engine Optimization" >}}`.
-- [x] ability to show ad banner in homepage and post page
-- [ ] ability to set accent color in config.toml
-- [ ] ability to set link color in config.toml
-- [ ] ability to set darkmode background color in config.toml
-- [ ] ability to set lightmode background color in config.toml
-- [ ] [submit the theme](https://gohugo.io/contribute/themes/)
-- [ ] breadcrumb & easy navigation
-- [ ] RSS
-- [ ] web native __lazy loading__ for iframes
-- [ ] use WebP image to speed up the page load time
-- [ ] feature: 'read aloud' or 'read for me' (text to speech)
+- Previous (v1.0.0 , v1.1.0 , v1.2.0)
+  - ~~use tailwind css~~ (use minimal native CSS)
+  - setup a [demo](https://AbanoubHanna.com/)
+  - SEO meta tags
+  - generate sitemap(s)
+  - link to translation of current page
+  - custom rendering for heading with anchor link
+  - custom rendering for image to set the alt text
+  - support image caption via `p > img + em {}` in CSS
+  - mobile-first, responsive layout
+  - web native __lazy loading__ for images
+  - show lastmod/updated_at datetime if exists
+  - show pinned/featured posts upfront
+  - show only posts in feed/index
+  - show pages links in the footer
+  - support multilanguage in links of tags and categories
+  - add keyboard key by kbd shortcode `{{< kbd command >}}`.
+  - add abbr shortcode `{{< abbr SEO "Search Engine Optimization" >}}`.
+  - ability to show ad banner in homepage and post page
+- Next
+  - ability to set accent color in config.toml
+  - ability to set link color in config.toml
+  - ability to set darkmode background color in config.toml
+  - ability to set lightmode background color in config.toml
+  - [submit the theme](https://gohugo.io/contribute/themes/)
+  - breadcrumb & easy navigation
+  - RSS
+  - web native __lazy loading__ for iframes
+  - use WebP image to speed up the page load time
+  - feature: 'read aloud' or 'read for me' (text to speech)
 
 This HUGO theme is open source. Feel free to send [pull requests](https://github.com/abanoubha/gohugo-theme-kmt/pulls) and/or write [issues](https://github.com/abanoubha/gohugo-theme-kmt/issues).
