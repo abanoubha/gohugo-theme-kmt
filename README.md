@@ -95,6 +95,7 @@ That's it. You installed it successfully.
   - add abbr shortcode `{{< abbr SEO "Search Engine Optimization" >}}`.
   - ability to show ad banner in homepage and post page
 - Next
+  - search box: search via Google simply using `keywords site:<domain-name>`
   - ability to set accent color in config.toml
   - ability to set link color in config.toml
   - ability to set darkmode background color in config.toml
