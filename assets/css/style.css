@@ -546,3 +546,26 @@ abbr {
     text-decoration: underline;
     text-decoration-style: dotted;    
 }
+
+form.searchForm {
+    display: flex;
+    gap: 0.2rem;
+    justify-content: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+form.searchForm input {
+    background: transparent;
+    border: 1px solid var(--textcolor);
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+form.searchForm input[type="text"] {
+    flex-grow: 1;
+}
+
+form.searchForm input[type="submit"] {
+    border-radius: 0 50% 50% 0;
+}
