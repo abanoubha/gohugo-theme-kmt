@@ -12,8 +12,4 @@
 
 {{ partial "translated.html" .}}
 
-<form action="https://www.google.com/search" method="get" class="searchForm" dir="ltr">
-    <input type="text" name="q" placeholder="Search">
-    <input type="hidden" name="as_sitesearch" value="{{ replace .Site.BaseURL "http://" ""  | replace "https://" "" | replace "/" "$"}}">
-    <input type="submit" value="🔍">
-</form>
+{{ partialCached "search.html" .}}
