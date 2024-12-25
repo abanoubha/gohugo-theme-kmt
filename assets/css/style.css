@@ -3,6 +3,7 @@
     --lightblue: #0383ec;
     --textcolor: #404040;
     --bgcolor: #ffffff;
+    --bg2nd: #eeeeee;
     --texthover: #0366d6;
     --bubblebg: #f2f2f2;
     --shade: rgb(218, 218, 220, 0.4);
@@ -13,6 +14,7 @@
         --lightblue: #5badf0;
         --textcolor: #cdcdcd;
         --bgcolor: #000000;
+        --bg2nd: #111111;
         --texthover: #95c7ff;
         --bubblebg: #262626;
         --shade: rgba(59, 59, 59, 0.4);
@@ -365,9 +367,10 @@ main {
 }
 
 .post {
-    padding-bottom: 1rem;
-    margin: 0 auto 1rem auto;
-    border-bottom: solid var(--bubblebg);
+    border-radius: 0.4rem;
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: var(--bg2nd);
 }
 
 .title {

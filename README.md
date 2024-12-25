@@ -96,6 +96,7 @@ That's it. You installed it successfully.
   - ability to show ad banner in homepage and post page
 - v1.3.0
   - search box: search via Google simply using `keywords site:<domain-name>`
+  - redesign UI
 - Next
   - ability to set accent color in config.toml
   - ability to set link color in config.toml
