@@ -97,8 +97,10 @@ That's it. You installed it successfully.
 - v1.3.0
   - search box: search via Google simply using `keywords site:<domain-name>`
   - redesign UI
-- v1.4.0 (WIP)
+- v1.4.0
   - breadcrumb & easy navigation
+  - remove ad
+  - redesign UI of search form
 - Next
   - ability to set accent color in config.toml
   - ability to set link color in config.toml
