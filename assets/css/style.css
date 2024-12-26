@@ -271,11 +271,6 @@ nav.navigation a.button {
     }
 }
 
-.translation-menu {
-    display: block;
-    text-align: center;
-}
-
 /* toc */
 .toc {
     margin: auto;
@@ -570,4 +565,16 @@ form.searchForm input[type="submit"] {
 
 #navback {
     display: flex;
+}
+
+.postBottom {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+}
+
+@media (max-width: 700px) {
+    .postBottom {
+        flex-direction: column;
+    }    
 }

@@ -61,11 +61,15 @@
     {{ .Content }}
   </div>
 
-  {{ partial "tags.html" . }}
-
-  {{ partial "categories.html" . }}
-
-  {{ partialCached "share.html" . }}
+  <div class="postBottom">
+    {{ partial "tags.html" . }}
+  
+    {{ partial "categories.html" . }}
+  
+    {{ partialCached "share.html" . }}
+  
+    {{ partial "translated.html" .}}
+  </div>
 
   {{ partial "related.html" . }}
 
