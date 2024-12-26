@@ -18,10 +18,6 @@ defaultContentLanguage = 'en'
 
 [params]
   founded = 2024
-  adLink="https://www.waffarx.com/ar-us/r/DQUY5NYM"
-  adWebp="/img/waffarx-banner.webp"
-  adPng="/img/waffarx-banner.png"
-  adAlt="waffarx cash back"
 
 [module]
   [module.hugoVersion]
