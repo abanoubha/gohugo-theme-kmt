@@ -97,13 +97,14 @@ That's it. You installed it successfully.
 - v1.3.0
   - search box: search via Google simply using `keywords site:<domain-name>`
   - redesign UI
+- v1.4.0 (WIP)
+  - breadcrumb & easy navigation
 - Next
   - ability to set accent color in config.toml
   - ability to set link color in config.toml
   - ability to set darkmode background color in config.toml
   - ability to set lightmode background color in config.toml
   - [submit the theme](https://gohugo.io/contribute/themes/)
-  - breadcrumb & easy navigation
   - RSS
   - web native __lazy loading__ for iframes
   - use WebP image to speed up the page load time

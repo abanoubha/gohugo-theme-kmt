@@ -80,3 +80,6 @@ other = "المزيد من المقالات ←"
 
 [relatedPosts]
 other = "اقرأ أيضاً"
+
+[allPosts]
+other = "كل المقالات"

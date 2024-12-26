@@ -127,12 +127,6 @@ h3 {
     font-weight: 400;
 }
 
-#post h1,
-#post h2,
-#post h3 {
-    border-bottom: solid var(--bubblebg);
-}
-
 p {
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
@@ -572,4 +566,8 @@ form.searchForm input[type="text"] {
 
 form.searchForm input[type="submit"] {
     border-radius: 0 50% 50% 0;
+}
+
+#navback {
+    display: flex;
 }
