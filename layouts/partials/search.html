@@ -1,5 +1,7 @@
-<form action="https://www.google.com/search" method="get" class="searchForm" dir="ltr">
-    <input type="text" name="q" placeholder="Search">
+<form role="search" method="get" class="search-form" action="https://www.google.com/search" dir="ltr">
+    <label>
+        <input type="search" class="search-field" placeholder="Search …" value="" name="q" title="Search for:" />
+    </label>
     <input type="hidden" name="as_sitesearch" value="{{ .Site.BaseURL }}">
-    <input type="submit" value="🔍">
+    <input type="submit" class="search-submit" value="Search" />
 </form>

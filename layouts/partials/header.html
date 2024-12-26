@@ -1,7 +1,10 @@
 {{ if .IsHome }}
-<h1 class="homepageTitle">
-    {{ site.Title }}
-</h1>
+<div id="navback">
+    <h1 class="homepageTitle">
+        {{ site.Title }}
+    </h1>
+    {{ partialCached "search.html" .}}
+</div>
 {{ else }}
 <a href="{{ .Site.Home.RelPermalink }}">
     {{ site.Title }}
@@ -9,5 +12,3 @@
 {{ end }}
 
 {{ partialCached "menu.html" (dict "menuID" "main" "page" .) }}
-
-{{ partialCached "search.html" .}}
