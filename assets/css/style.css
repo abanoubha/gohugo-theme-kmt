@@ -639,5 +639,12 @@ abbr {
 }
 
 .relatedPosts a>h5::before {
-    content: '♦ ';
+    content: '♦';
+    padding-left: 0px;
+    padding-right: 0.4rem;
+}
+
+html[dir="rtl"] .relatedPosts a>h5::before {
+    padding-left: 0.4rem;
+    padding-right: 0px;
 }
