@@ -622,3 +622,22 @@ abbr {
 .search-form .search-submit {
     display: none;
 }
+
+/* related posts */
+.relatedPosts {
+    background-color: var(--bg2nd);
+}
+
+.relatedPosts h4 {
+    border-top: 2px solid #999;
+}
+
+.relatedPosts h5 {
+    background-color: transparent !important;
+    border: none !important;
+    font-size: medium;
+}
+
+.relatedPosts a>h5::before {
+    content: '♦ ';
+}
