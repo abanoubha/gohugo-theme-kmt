@@ -1,0 +1,24 @@
+{{ $currentPermalink := .Permalink }}
+{{ $series := slice }}
+{{ if isset .Params "series" }}
+{{ $series = (where .Site.Pages ".Params.series" "eq" .Params.series).ByDate }}
+{{ $has_series := $series | len }}
+{{ if gt $has_series 1 }}
+<strong>{{ .Params.series }}</strong>&nbsp;&#9657;
+<ul class="series">
+    {{- range $index, $element := $series -}}
+    <li>
+        {{ T "part" }} {{ add $index 1 }}:
+        &nbsp;
+        {{ if eq $element.Permalink $currentPermalink }}
+        <span>{{ $element.Title }}</span>
+        {{ else }}
+        <a href="{{ $element.RelPermalink }}">
+            {{ $element.Title }}
+        </a>
+        {{ end }}
+    </li>
+    {{- end -}}
+</ul>
+{{ end }}
+{{ end }}

@@ -55,11 +55,15 @@
     </div>
   </header>
 
+  {{ partial "series.html" . }}
+
   {{ partial "toc.html" . }}
 
   <div>
     {{ .Content }}
   </div>
+
+  {{ partial "series.html" . }}
 
   <div class="postBottom">
     {{ partial "tags.html" . }}
