@@ -31,6 +31,33 @@
   </section>
 
   <section>
+    {{ $tags := .Site.Taxonomies.tags }}
+    {{ range $tag, $pages := $tags }}
+
+    <div>{{ $tag }} &rsaquo;</div>
+    {{ range first 7 $pages }}
+    <div class="post">
+
+      <div class="date">
+        <time datetime="{{ .PublishDate }}">{{ T "publishDateShort" . }}</time>
+      </div>
+
+      <h2 class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+
+      <p>{{ .Summary }}</p>
+
+      {{ partial "tags.html" . }}
+
+      {{ partial "categories.html" . }}
+
+    </div>
+    {{ end }}
+
+    {{ end }}
+  </section>
+
+  <section>
+    <div>{{ T "allPosts" }} &rsaquo;</div>
     {{ range (where .Paginator.Pages "Type" "posts") }}
     <div class="post">
 
