@@ -31,30 +31,24 @@
   </section>
 
   <section>
-    {{ $tags := .Site.Taxonomies.tags }}
-    {{ range $tag, $pages := $tags }}
-    <div class="tag-section">
-      <h2>{{ $tag }} &rsaquo; </h2>
-      {{ range first 5 $pages.Pages }}
-      <div class="post">
+    {{ range (where .Paginator.Pages "Type" "posts") }}
+    <div class="post">
 
-        <div class="date">
-          <time datetime="{{ .PublishDate }}">{{ T "publishDateShort" . }}</time>
-        </div>
-
-        <h3 class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
-
-        <p>{{ .Summary }}</p>
-
-        {{ partial "tags.html" . }}
-
-        {{ partial "categories.html" . }}
-
+      <div class="date">
+        <time datetime="{{ .PublishDate }}">{{ T "publishDateShort" . }}</time>
       </div>
-      {{ end }}
+
+      <h2 class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+
+      <p>{{ .Summary }}</p>
+
+      {{ partial "tags.html" . }}
+
+      {{ partial "categories.html" . }}
+
     </div>
     {{ end }}
   </section>
-
+  {{- template "_internal/pagination.html" . -}}
 </article>
 {{ end }}
