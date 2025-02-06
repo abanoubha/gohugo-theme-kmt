@@ -16,7 +16,7 @@
         --bgcolor: #000000;
         --bg2nd: #111111;
         --texthover: #95c7ff;
-        --bubblebg: #262626;
+        --bubblebg: #333;
         --shade: rgba(59, 59, 59, 0.4);
     }
 
@@ -390,7 +390,7 @@ main {
     border-radius: 0.4rem;
     padding: 1rem;
     margin: 1rem auto;
-    background-color: var(--bg2nd);
+    background-color: var(--bubblebg);
 }
 
 .title {
@@ -651,4 +651,10 @@ html[dir="rtl"] .relatedPosts a>h5::before {
 
 .series {
     list-style: circle;
+}
+
+.tagTitle {
+    background: var(--bubblebg);
+    padding: 0.2rem 0.8rem;
+    border-radius: 0.6rem;
 }
