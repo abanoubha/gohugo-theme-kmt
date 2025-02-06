@@ -44,7 +44,7 @@
 
       <h2 class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
 
-      <p>{{ .Plain }}</p>
+      <p>{{ .Plain | truncate 200 }}</p>
 
       {{ partial "tags.html" . }}
 
@@ -67,7 +67,7 @@
 
       <h2 class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
 
-      <p>{{ .Plain }}</p>
+      <p>{{ .Plain | truncate 200 }}</p>
 
       {{ partial "tags.html" . }}
 
