@@ -31,7 +31,12 @@
         {{ $tags := .Site.Taxonomies.tags }}
         {{ range $tag, $pages := $tags }}
 
-        <div class="tagTitle"><a href='{{ "/tags/" | relLangURL }}{{ $tag | urlize }}'>{{ $tag | title }}</a> &rsaquo;
+        <div class="tagTitle">
+            <a href='{{ "/tags/" | relLangURL }}{{ $tag | urlize }}'>
+                {{ $tag | title }}
+            </a>
+            ({{ len $pages }})
+            &rsaquo;
         </div>
         {{ range first 7 $pages }}
         <div class="post">
@@ -56,7 +61,11 @@
     {{ end }}
 
     <section>
-        <div class="tagTitle">{{ T "allPosts" }} &rsaquo;</div>
+        <div class="tagTitle">
+            {{ T "allPosts" }}
+            ({{ len (where .Site.Pages "Type" "posts") }})
+            &rsaquo;
+        </div>
         {{ range (where .Paginator.Pages "Type" "posts") }}
         <div class="post">
 
