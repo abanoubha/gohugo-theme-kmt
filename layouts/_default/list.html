@@ -34,7 +34,7 @@
     {{ $tags := .Site.Taxonomies.tags }}
     {{ range $tag, $pages := $tags }}
 
-    <div>{{ $tag }} &rsaquo;</div>
+    <div><a href='{{ "/tags/" | relLangURL }}{{ $tag | urlize }}'>{{ $tag }}</a> &rsaquo;</div>
     {{ range first 7 $pages }}
     <div class="post">
 
