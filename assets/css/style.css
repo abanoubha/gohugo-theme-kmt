@@ -653,8 +653,42 @@ html[dir="rtl"] .relatedPosts a>h5::before {
     list-style: circle;
 }
 
+.tagTitleWrapper {
+    display: block;
+    text-align: center;
+}
+
 .tagTitle {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    padding: 0.2rem 0.8rem;
     background: var(--bubblebg);
     padding: 0.2rem 0.8rem;
-    border-radius: 0.6rem;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    max-width: 78%;
+}
+
+.tagTitle::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -3rem;
+    border: 1.7rem solid var(--bubblebg);
+    border-left: 1.8rem solid transparent;
+}
+
+.tagTitle::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -3rem;
+    border: 1.7rem solid var(--bubblebg);
+    border-right: 1.8rem solid transparent;
+}
+
+.postCount {
+    text-align: center;
 }

@@ -86,3 +86,6 @@ other = "All Posts"
 
 [part]
 other = "Part"
+
+[posts]
+other = "posts"

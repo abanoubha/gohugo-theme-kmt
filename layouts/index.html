@@ -31,13 +31,18 @@
         {{ $tags := .Site.Taxonomies.tags }}
         {{ range $tag, $pages := $tags }}
 
-        <div class="tagTitle">
-            <a href='{{ "/tags/" | relLangURL }}{{ $tag | urlize }}'>
-                {{ $tag | title }}
-            </a>
-            ({{ len $pages }})
-            &rsaquo;
+        <div class="tagTitleWrapper">
+            <h2 class="tagTitle">
+                <a href='{{ "/tags/" | relLangURL }}{{ $tag | urlize }}'>
+                    {{ $tag | title }}
+                </a>
+            </h2>
         </div>
+
+        <p class="postCount">
+            {{ len $pages }} {{ T "posts" }}
+        </p>
+
         {{ range first 7 $pages }}
         <div class="post">
 
