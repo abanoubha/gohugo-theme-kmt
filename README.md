@@ -105,6 +105,14 @@ That's it. You installed it successfully.
   - better looking blockquote and content headers
 - v1.6.0
   - support posts series via `series = "xyz seris"` in the frontmatter
+- v1.7.0
+  - styling the tag titles, capitalize initial letters of the tag titles
+  - add a specific layout for tags
+  - make the tag title a link
+  - show ONLY 200 characters maximum as a post summary in plain text (not styled)
+  - show count of posts associated with each tag
+- v1.8.0
+  - redesign tag titles on the homepage with a butterfly style
 - Next
   - ability to set accent color in config.toml
   - ability to set link color in config.toml
