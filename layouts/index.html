@@ -66,11 +66,16 @@
     {{ end }}
 
     <section>
-        <div class="tagTitle">
-            {{ T "allPosts" }}
-            ({{ len (where .Site.Pages "Type" "posts") }})
-            &rsaquo;
+        <div class="tagTitleWrapper">
+            <h2 class="tagTitle">
+                {{ T "allPosts" }}
+            </h2>
         </div>
+
+        <p class="postCount">
+            {{ len (where .Site.Pages "Type" "posts") }} {{ T "posts" }}
+        </p>
+
         {{ range (where .Paginator.Pages "Type" "posts") }}
         <div class="post">
 
