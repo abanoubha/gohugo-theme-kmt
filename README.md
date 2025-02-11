@@ -113,6 +113,7 @@ That's it. You installed it successfully.
   - show count of posts associated with each tag
 - v1.8.0
   - redesign tag titles on the homepage with a butterfly style
+  - ui: use better font families
 - Next
   - ability to set accent color in config.toml
   - ability to set link color in config.toml
