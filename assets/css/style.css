@@ -39,7 +39,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
     line-height: 1;
-    font: normal 20px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font: normal 20px/1.5em SamsungOne, Ubuntu, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     color: var(--textcolor);
     background-color: var(--bgcolor);
     line-height: 1.75;
