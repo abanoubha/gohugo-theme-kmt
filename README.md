@@ -114,6 +114,8 @@ That's it. You installed it successfully.
 - v1.8.0
   - redesign tag titles on the homepage with a butterfly style
   - ui: use better font families
+  - ui: show search button on the tags' list page
+  - ui: show "back to posts" button on the tags' list page
 - Next
   - ability to set accent color in config.toml
   - ability to set link color in config.toml
