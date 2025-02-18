@@ -1,5 +1,12 @@
 {{ define "main" }}
 
+<div id="navback">
+    <a href="{{ .Site.Home.RelPermalink }}">
+        &#x2039; {{ T "allPosts" }}
+    </a>
+    {{ partialCached "search.html" .}}
+</div>
+
 <h1>{{ .Title }}</h1>
 
 <article id="archive">
