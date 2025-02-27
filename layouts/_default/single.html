@@ -9,6 +9,28 @@
       {{ partialCached "search.html" .}}
     </div>
 
+    <div style="text-align: start;">
+      <a href="{{ .Site.Home.RelPermalink }}">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+        </svg>
+      </a>
+      &rsaquo;
+      <a href="{{ .Site.Home.RelPermalink }}posts">
+        {{ T "allPosts" }}
+      </a>
+      &rsaquo;
+      {{ with index .Params.tags 0 }}
+      <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>
+        {{ . }}
+      </a>
+      &rsaquo;
+      {{ end }}
+      <span style="opacity: 0.8;">
+        {{ .Title }}
+      </span>
+    </div>
+
     <h1>
       {{ .Title }}
     </h1>
