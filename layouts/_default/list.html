@@ -34,17 +34,26 @@
     {{ range (where .Paginator.Pages "Type" "posts") }}
     <div class="post">
 
-      <div class="date">
-        <time datetime="{{ .PublishDate }}">{{ T "publishDateShort" . }}</time>
+      {{$title := .Title}}
+      {{ with .Params.thumbnail }}
+      <img width="240" height="240" src="{{ . }}" alt="{{ $title }}">
+      {{ end }}
+
+      <div style="flex-grow: 1;">
+
+        <div class="date">
+          <time datetime="{{ .PublishDate }}">{{ T "publishDateShort" . }}</time>
+        </div>
+
+        <h2 class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+
+        <p>{{ .Plain | truncate 200 }}</p>
+
+        {{ partial "tags.html" . }}
+
+        {{ partial "categories.html" . }}
+
       </div>
-
-      <h2 class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-
-      <p>{{ .Plain | truncate 200 }}</p>
-
-      {{ partial "tags.html" . }}
-
-      {{ partial "categories.html" . }}
 
     </div>
     {{ end }}

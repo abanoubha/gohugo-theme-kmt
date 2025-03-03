@@ -9,6 +9,6 @@ tags = [
     'شروحات',
     'مزايا'
     ]
-featured_image = ''
+thumbnail = ''
 description = ''
 +++

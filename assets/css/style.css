@@ -692,3 +692,15 @@ html[dir="rtl"] .relatedPosts a>h5::before {
 .postCount {
     text-align: center;
 }
+
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media (min-width: 460px) {
+    .post {
+        flex-direction: row;
+    }
+}
