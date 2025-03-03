@@ -118,6 +118,8 @@ That's it. You installed it successfully.
   - ui: show "back to posts" button on the tags' list page
 - v1.9.0
   - feature: show a long breadcrumb inside the blog post page
+- v1.10.0
+  - ui: support post thumbnail
 - Next
   - ability to set accent color in config.toml
   - ability to set link color in config.toml
