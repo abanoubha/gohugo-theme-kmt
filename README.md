@@ -2,6 +2,9 @@
 
 Kmt is the [ancient name of Egypt](https://en.wikipedia.org/wiki/Egypt#Names) (my home country). See [the demo here](https://abanoubhanna.com/).
 
+> [!NOTE]  
+> This hugo theme is mainly created for my use case on [my tech blog](https://AbanoubHanna.com/posts), if you are wondering why, read my post about [opinionated software vs heavily customized/customizable software](https://abanoubhanna.com/posts/heavily-customizable-software-vs-opinionated-software/).
+
 ## Features
 
 - __speed page loading__: surf the web at the speed of thought
